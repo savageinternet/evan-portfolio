@@ -1,0 +1,182 @@
+[{
+  "thumb": "expedition-300.png",
+  "title": "expedition!",
+  "tags": ["ed", "g", "rw", "sw"],
+  "links": [],
+  "description": "expedition! connects people around location-based educational quests. Currently in development."
+}, {
+  "thumb": "puzzling-madness-300.png",
+  "title": "The Puzzling Madness of John A. Macdonald",
+  "tags": ["rw", "g", "ed"],
+  "links": [
+    {"title": "Puzzling Madness Home", "href": "https://puzzlingmadness.ca"}
+  ],
+  "description": "The Puzzling Madness of John A. Macdonald is a puzzle/scavenger hunt across Downtown Toronto. Designed for the Canada 150 celebration, it features puzzles set in Toronto of 1867. It leverages historical handbills, maps, and sites, and casts players in the roles of actual people from that time. Games run from the end of June until the end of August 2017, see site for details."
+}, {
+  "thumb": "datasense-300.png",
+  "title": "Data Sense",
+  "tags": ["ed", "viz", "sw"],
+  "links": [
+    {"title": "Data Sense", "href": "https://makesenseofdata.com"}
+  ],
+  "description": "Data Sense helps people who quantify their lives---e.g., with FitBit---to make sense of the data they collect. They can to upload data or connect online data services, then create visualizations linking information from multiple sources. This project is an active collaboration with Intel Labs."
+}, {
+  "thumb": "locatrix-300.jpg",
+  "title": "Locatrix",
+  "tags": ["rw", "viz", "sw"],
+  "links": [
+    {"title": "Locatrix Home Page", "href": "https://locatrix.savageinter.net"},
+    {"title": "Download on Google Play", "href": "https://play.google.com/store/apps/details?id=net.savageinter.locatrix"}
+  ],
+  "description": "Locatrix tracks your movements on a macro scale, with your privacy in mind. On a long trip, it keeps friends and family updated with what city you’re in, but not where you spent your Saturday night. For remote work, your boss will always know your timezone, but not that you sometimes take meetings from the beach."
+}, {
+  "thumb": "zombie-300.jpg",
+  "title": "Zombie Rendezvous",
+  "tags": ["rw", "g", "ed"],
+  "links": [
+    {"title": "Zombie Rendezvous Booklet", "href": "https://drive.google.com/open?id=0B0jF681JP2rJcnJySEhudktxenM"},
+    {"title": "Print-Friendly Booklet", "href": "https://drive.google.com/open?id=0B0jF681JP2rJaUxwZjZDaUVWbnc"},
+    {"title": "Blog Post", "href": "https://blog.savageinter.net/blog/2017/05/15/zombies/"}
+  ],
+  "description": "Alongside a molecular genetics grad student and a cancer researcher, we developed a game to be played at the outdoor science festival Science Rendezvous. Players are brought into the game when they're infected by roving zombies. They then have just 30 minutes to learn the difference between fungal, viral, and bacterial infections, and to find the cure!"
+}, {
+  "thumb": "hoedown-300.jpg",
+  "title": "Kinoma Hoedown",
+  "tags": ["el", "fab", "g", "sw"],
+  "links": [
+    {"title": "Kinoma Blog Post", "href": "http://blog.kinoma.com/2014/06/hoedown-with-the-savages-and-kinoma-create/"},
+    {"title": "Github Repository", "href": "https://github.com/savageinternet/hoedown"}
+  ],
+  "description": "We showcased Hoedown---an Austin-themed interactive character generation system that tests a person’s intelligence, constitution, and more, using a series of entertaining challenges---for Kinoma (Marvell) as a part of their booth at South By Southwest 2014."
+}, {
+  "thumb": "pussyhat-300.jpg",
+  "title": "#resist shop",
+  "tags": ["fab"],
+  "links": [
+    {"title": "#resist shop on Shapeways", "href": "https://www.shapeways.com/shops/valkyrie"}
+  ],
+  "description": "To raise money for nonprofit advocacy organizations in the wake of the 2016 American election, Valkyrie created 3D models of necklace pendants and cufflinks showcasing pussyhats and other objects."
+}, {
+  "thumb": "jugger-300.jpg",
+  "title": "Jugger California",
+  "tags": ["fab", "g", "rw"],
+  "links": [
+    {"title": "Instructable for Jugger Weapons", "href": "http://instructables.com/id/Jugger-Weapons"},
+    {"title": "East Bay Nerd Nite Talk", "href": "https://youtu.be/LZ1WYXq14u0?t=2h52m40s"}
+  ],
+  "description": "Jugger California is a San Francisco-area league we founded for the sport of jugger. Jugger---a blend of capture the flag, fencing, and rugby---enjoys relative popularity in Germany, but we introduced the game to the Bay Area. We personally showcased the sport at local games (Come Out & Play) and art (Figment) festivals, as well as presented on its lineage dating back to Roman times. We constructed the first set of equipment ourselves from PVC and pipe insulation, and directed construction of further sets: our write-up on Instructables was featured."
+}, {
+  "thumb": "woman-of-bronze-300.jpg",
+  "title": "Doc Savage, Woman of Bronze",
+  "tags": ["g", "rw"],
+  "links": [
+    {"title": "Puzzle Hunt Materials", "href": "https://drive.google.com/drive/folders/0B015tvjlD7Dmc0VqOGpyUmZhSkU?usp=sharing"}
+  ],
+  "description": "Doc Savage, Woman of Bronze, is an Oakland-based puzzle hunt game tied to the city's unique history and architecture. It features letter locks hidden around the city: players must determine where the locks are as well as the word which will unlock them. Evan supervised this game for 15 people."
+}, {
+  "thumb": "heve-300.jpg",
+  "title": "Hello, Velo!",
+  "tags": ["el", "fab", "sw"],
+  "links": [
+    {"title": "Kinoma Blog Post", "href": "http://blog.kinoma.com/2016/08/hello-velo"},
+    {"title": "Instructable for Hello, Velo!", "href": "http://www.instructables.com/id/Hello-Velo-the-Internet-of-Two-Wheeled-Things/"},
+    {"title": "3D models for Case", "href": "https://www.thingiverse.com/thing:1695733"}
+  ],
+  "description": "Hello, Velo! attaches to a bicycle and allows its owner to communicate with it, for example to determine where she left it parked. A GSM (cellular network) antenna and a GPS antenna attached to a Kinoma Element form the device's guts, and are enclosed in a custom 3D-printed case. The Hello, Velo! was created during Valkyrie’s summer 2016 Maker-in-Residency at Kinoma’s Headquarters, and her write-up on Instructables was featured."
+}, {
+  "thumb": "dnd-300.jpg",
+  "title": "D&D GMing",
+  "tags": ["g"],
+  "links": [],
+  "description": "As dungeon masters for a rotating group of players, we have created storylines, designed and balanced dungeons and monsters, crafted props, and enjoyed many hours of structured improv."
+}, {
+  "thumb": "intensive-mental-300.png",
+  "title": "Doc Savage's Intensive Mental Training",
+  "tags": ["ed", "g"],
+  "links": [
+    {"title": "Printable Game Board", "href": "https://drive.google.com/file/d/0BzrCBpMEE7AVTlpheFE2VDR0NWM/view?usp=sharing"}
+  ],
+  "description": "Doc Savage’s Intensive Mental Training is a word game in the crossword style, that focuses its challenge around syllables rather than pure letter counts. At least one foreign language (Spanish) professor has used it in her classroom as a fun challenge to encourage growth in second-language learners."
+}, {
+  "thumb": "cookie-cutters-300.jpg",
+  "title": "Cookie Cutters",
+  "tags": ["fab"],
+  "links": [
+    {"title": "3D models and OpenSCAD Code", "href": "http://www.thingiverse.com/thing:1185477"}
+  ],
+  "description": "As a Christmas gift to the players of Jugger California, we threw a themed holiday party complete with Jugger-shaped cookie cutters. We designed and 3D printed these cookie cutters, and we sent prints to Denver, Ireland, Germany, and Australia at the request of other players. Design files are available online."
+}, {
+  "thumb": "beer-glasses-300.jpg",
+  "title": "Etched Pint Glasses",
+  "tags": ["fab"],
+  "links": [],
+  "description": "We attend roughly one large jugger tournament per year, and it has become our tradition to give a beer-themed gift to the other teams in attendance. For our first tournament, we brewed a special blood red beer (made with beets) named after the movie from whence Jugger originated (namely, “The Blood of Heroes”). At the second tournament we handed out laser-engraved pint glasses bearing the name and year of the tournament to other players."
+}, {
+  "thumb": "d20-300.jpg",
+  "title": "Anti-Crit GM d20",
+  "tags": ["fab"],
+  "links": [
+    {"title": "Instructable for Anti-Crit d20", "href": "http://www.instructables.com/id/3D-Printed-D20-As-D10/"}
+  ],
+  "description": "As a gift for a friend of ours with whom we played tabletop roleplaying games, we 3D modeled and fabricated a special Anti-Crit die: a 20-sided die on which only the numbers 1-10 appear."
+}, {
+  "thumb": "lot-300.png",
+  "title": "USGS Terrain Data in OpenSCAD",
+  "tags": ["fab", "viz", "sw"],
+  "links": [],
+  "description": "Valkyrie’s parents are working to design a home and landscape on their rural property: as a gift to them we created a 3D model of the lot using elevation data from the USGS and satellite imagery from Google Maps."
+}, {
+  "thumb": "async-300.png",
+  "title": "Talk: Async JS Patterns",
+  "tags": ["ed", "sw"],
+  "links": [
+    {"title": "Interactive Talk Slides (HTML / JS)", "href": "http://candu.github.io/presentations/html/20140729-jquery-async-javascript/"}
+  ],
+  "description": "Evan gave a talk at the East Bay JavaScript Meetup on patterns (and anti-patterns!) for handling asynchronous tasks in JavaScript."
+}, {
+  "thumb": "cs160-300.jpg",
+  "title": "CS160: Intro to User Interface Design",
+  "tags": ["ed"],
+  "links": [
+    {"title": "Course Homepage", "href": "http://cs160.valkyriesavage.com"}
+  ],
+  "description": "Valkyrie taught UC Berkeley's Intro to User Interface Design course. She redesigned it to fit into the accelerated summer semester timescale, as well as to use a new technology (smartwatches), as well as to restructure half of the lectures into studio-style classes. For teaching this course, she won an Outstanding Graduate Student Instructor Award."
+}, {
+  "thumb": "tutoring-300.jpg",
+  "title": "Tutoring",
+  "tags": ["ed", "fab"],
+  "links": [],
+  "description": "We worked together with a 5th grader-turned-7th grader on a fabrication project of his choice: designing and 3D printing a rubber band gun from scratch. Along the way, we created a spirograph, learned how temperature causes things to expand, and taught his printer to sing."
+}, {
+  "thumb": "fabbed-300.jpg",
+  "title": "Fabbed to Sense",
+  "tags": ["el", "fab"],
+  "links": [
+    {"title": "Dissertation Talk", "href": "https://www.youtube.com/watch?v=SgZUxloEo4s"},
+    {"title": "Thesis (PDF)", "href": "http://valkyriesavage.com/papers/thesis.pdf"}
+  ],
+  "description": "Valkyrie’s doctoral thesis---“Fabbed to Sense: Integrated Design of Geometry and Sensing Algorithms for Interactive Objects”---focused on tools to aid makers and professional designers in creating functional mockups of future interactive products, such as video game controllers, while avoiding the onerous assembly that typically accompanies that process. Her thesis document and presentation are available online."
+}, {
+  "thumb": "datafist-300.png",
+  "title": "datafist",
+  "tags": ["ed", "viz", "sw"],
+  "links": [
+    {"title": "Github Repository", "href": "https://github.com/candu/datafist"}
+  ],
+  "description": "Datafist is a visual programming tool and language for exploring datasets: users can upload their data and create regressions, sparklines, and more. This tool was designed and implemented entirely by Evan, prior to his work on the Data Sense project which derives from it."
+}, {
+  "thumb": "bats-300.png",
+  "title": "Scientific Visualization",
+  "tags": ["viz", "sw"],
+  "links": [],
+  "description": "Working with researchers from Eastern Michigan University and University of Michigan at Ann Arbor, we helped process data and craft visualizations of bat migrations tracked with sonic detectors. Silver-haired bat photo credit: Heather Adams, by permission."
+}, {
+  "thumb": "toroid-300.png",
+  "title": "Toroid: Tor Node Map",
+  "tags": ["viz", "sw"],
+  "links": [
+    {"title": "Live Map", "href": "https://toroid.savageinter.net/"},
+    {"title": "Github Repository", "href": "https://github.com/candu/toroid"}
+  ],
+  "description": "Toroid is an interactive worldwide map of Tor nodes."
+}]
