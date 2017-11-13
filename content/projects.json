@@ -1,13 +1,19 @@
 [{
-  "thumb": "expedition-300.png",
+  "thumb": "image_mask.png",
   "title": "expedition!",
-  "tags": ["ed", "g", "rw", "sw"],
+  "tags": ["education", "games", "software"],
   "links": [],
   "description": "expedition! connects people around location-based educational quests. Currently in development."
 }, {
-  "thumb": "puzzling-madness-300.png",
+  "thumb": "image_mask.png",
+  "title": "Jugger Toronto",
+  "tags": ["games"],
+  "links": [],
+  "description": ""
+}, {
+  "thumb": "image_mask.png",
   "title": "The Puzzling Madness of John A. Macdonald",
-  "tags": ["rw", "g", "ed"],
+  "tags": ["games"],
   "links": [
     {"title": "Puzzling Madness Home", "href": "https://puzzlingmadness.ca"}
   ],
