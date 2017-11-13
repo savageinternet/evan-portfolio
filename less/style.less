@@ -38,6 +38,8 @@
 @color-blue: #369;
 @color-med-blue: fade(@color-blue, 60%);
 @color-light-blue: fade(@color-blue, 20%);
+@color-header-blue: #D5DEE8;
+@color-header-blue-border: #2C5B8E;
 @color-black: #322e22;
 
 // SIZES
@@ -100,6 +102,18 @@ img {
   .unselectable();
 }
 
+a {
+  color: @color-red;
+  transition: background-color 200ms ease-in-out;
+  &:hover {
+    background-color: fade(@color-red, 20%);
+  }
+}
+
+.hide {
+  opacity: 0;
+}
+
 // LAYOUT
 
 #root {
@@ -108,7 +122,8 @@ img {
 }
 
 #header {
-  background-color: @color-light-blue;
+  background-color: @color-header-blue;
+  border-bottom: 1px solid @color-header-blue-border;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -146,6 +161,7 @@ img {
   margin: 0 auto;
   padding: 16px 0;
   width: 1024px;
+  line-height: 1.5;
 }
 
 #banner {
@@ -167,6 +183,33 @@ img {
 
 #about_top {
   background-color: @color-light-blue;
+}
+
+#haiku {
+  color: fade(@color-blue, 50%);
+  font-size: 1.6rem;
+  transition: opacity 1s ease-in-out;
+  & > p {
+    margin: 0;
+  }
+}
+
+.contact-action {
+  font-family: 'Playfair Display';
+  font-weight: 900;
+  font-style: italic;
+  text-decoration: none;
+  color: @color-med-blue;
+  display: inline-block;
+  margin: 16px 0;
+  padding: 8px 16px;
+  border: 1px solid @color-med-blue;
+  border-radius: 8px;
+  font-size: 1.8rem;
+  &:hover, &:active {
+    background-color: @color-med-blue;
+    color: white;
+  }
 }
 
 #attributes {

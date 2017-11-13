@@ -56,4 +56,8 @@
   }
 
   $tags.forEach(attachTagListener);
+
+  window.addEventListener('load', function() {
+    $id('haiku').classList.remove('hide');
+  })
 })();
