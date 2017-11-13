@@ -144,7 +144,7 @@ img {
 .container {
   font-size: 1.2rem;
   margin: 0 auto;
-  padding: 0.5rem 0;
+  padding: 16px 0;
   width: 1024px;
 }
 
@@ -167,6 +167,35 @@ img {
 
 #about_top {
   background-color: @color-light-blue;
+}
+
+#attributes {
+  font-size: 0;
+}
+
+.attribute {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 32px 0;
+  width: 50%;
+  & > .attribute-details {
+    display: inline-block;
+    margin: 0 32px;
+    text-align: left;
+    vertical-align: middle;
+    width: 200px;
+    & > .attribute-title {
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+  }
+  & > .attribute-image {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &.attribute-right > .attribute-details {
+    text-align: right;
+  }
 }
 
 @tag-triangle-width: 40px;
@@ -205,4 +234,8 @@ img {
 
 #contact_top {
   background-color: @color-light-blue;
+}
+
+#footer {
+  font-size: 0.8rem;
 }
