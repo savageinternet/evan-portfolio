@@ -128,8 +128,19 @@ img {
   z-index: 1;
 }
 
-#main {
-  padding: 8px;
-  text-align: center;
-  width: 100%;
+#banner {
+  background-image: url(/img/banner.png);
+  background-position: top -23px right -512px;
+  background-repeat: repeat-x;
+  height: 208px;
+  position: relative;
+}
+
+#headshot {
+  top: 12px;
+  right: 52px;
+  position: absolute;
+  & > img {
+    height: 176px;
+  }
 }
