@@ -28,20 +28,26 @@ def make_page(filename, html):
         f.write(html)
 
 
-def make_index_page():
+def make_index_page(tags):
     html = render('index', {
-        'pageTitle': 'Evan Savage'
+        'pageTitle': 'Evan Savage',
+        'tags': tags
     })
     make_page('index.html', html)
 
 
-def load_json(fname):
-    with open(fname) as jsonFile:
+def load_json(name):
+    fname = name
+    if not fname.endswith('.json'):
+        fname += '.json'
+    fpath = os.path.join(IN_DIR, fname)
+    with open(fpath) as jsonFile:
         return json.load(jsonFile)
 
 
 def main():
-    make_index_page()
+    tags = load_json('tags')
+    make_index_page(tags)
 
 
 if __name__ == '__main__':

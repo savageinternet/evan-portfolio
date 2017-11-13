@@ -10,6 +10,26 @@
         <img src="/img/evan_triangle.png" alt="Evan Savage" />
       </div>
     </div>
+    <div id="about">
+      <div class="container">
+        <h2>about</h2>
+        <p>
+          One day I saw a film.  As I recall, it was a horror film.  Now I have only myself to blame as I married someone who wants to put triangles all over my website for reasons I simply cannot fathom.
+        </p>
+        <div>
+          TODO: current work / education
+        </div>
+      </div>
+    </div>
+    <div id="projects">
+      <div class="container">
+        <div id="tags">
+          {{#tags}}
+            <span class="tag tag-{{.}}"><span>{{.}}</span></span>
+          {{/tags}}
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 {{> footer}}
