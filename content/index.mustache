@@ -5,12 +5,12 @@
 <div id="root">
   {{> header}}
   <div id="body">
-    <div id="banner">
+    <section id="banner">
       <div id="headshot">
         <img src="/img/evan_triangle.png" alt="Evan Savage" />
       </div>
-    </div>
-    <div id="about">
+    </section>
+    <section id="about_top">
       <div class="container">
         <h2>about</h2>
         <p>
@@ -20,16 +20,36 @@
           TODO: current work / education
         </div>
       </div>
-    </div>
-    <div id="projects">
+    </section>
+    <section id="projects_top">
       <div class="container">
+        <h2>projects</h2>
         <div id="tags">
           {{#tags}}
             <span class="tag tag-{{.}}"><span>{{.}}</span></span>
           {{/tags}}
         </div>
       </div>
-    </div>
+      <div id="projects">
+        {{#projects}}
+          {{> projectShort}}
+        {{/projects}}
+      </div>
+    </section>
+    <section id="contact_top">
+      <div class="container">
+        <h2>contact</h2>
+        <p>
+          I'd love to talk about *your* problems.  Give me an e-holler via one of my &hellip; channels.
+        </p>
+        <p>
+          <a href="mailto:evan@savageinter.net"><img src="/img/email.png" /></a>
+          <a href="https://www.facebook.com/savage.evan"><img src="/img/facebook.png" /></a>
+          <a href="https://www.linkedin.com/in/evansavage"><img src="/img/linkedin.png" /></a>
+          <a href="https://github.com/candu"><img src="/img/github.png" /></a>
+        </p>
+      </div>
+    </section>
   </div>
 </div>
 {{> footer}}

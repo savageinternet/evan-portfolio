@@ -66,7 +66,7 @@ h1, h2 {
 h1 {
   color: @color-red;
   font-size: 2.5rem;
-  & > img {
+  & img {
     height: 2rem;
     position: relative;
     top: 1px;
@@ -165,7 +165,7 @@ img {
   }
 }
 
-#about {
+#about_top {
   background-color: @color-light-blue;
 }
 
@@ -178,7 +178,10 @@ img {
   width: 187px;
   display: inline-block;
   cursor: pointer;
-  .unselectable();
+  .unselectable();order-bottom: @tag-triangle-height solid @color-red;
+}
+
+#tags > .tag {
   & > span {
     position: relative;
     &:after {
@@ -198,4 +201,8 @@ img {
   &.active > span:after {
     border-bottom: @tag-triangle-height solid @color-red;
   }
+}
+
+#contact_top {
+  background-color: @color-light-blue;
 }
