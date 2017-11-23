@@ -51,6 +51,7 @@
 body, html {
   padding: 0;
   margin: 0;
+  min-width: 400px;
   font-family: 'Play', sans-serif;
   color: @color-black;
 }
@@ -112,7 +113,7 @@ img {
 a {
   color: @color-red;
   &:hover {
-    color: darken(@color-red, 20%);
+    color: darken(@color-red, 15%);
   }
 }
 
@@ -230,6 +231,10 @@ a {
   .unselectable();order-bottom: @tag-triangle-height solid @color-red;
 }
 
+#tags {
+  margin-bottom: 32px;
+}
+
 #tags > .tag {
   & > span {
     position: relative;
@@ -315,4 +320,50 @@ a {
 
 #footer {
   font-size: 0.8rem;
+}
+
+@media (max-width: 640px) {
+  #nav {
+    padding: 0;
+    &:before {
+      color: @color-red;
+      content: '\2261';
+      cursor: pointer;
+      font-size: 64px;
+      line-height: 32px;
+      position: absolute;
+      top: 8px;
+      right: 8px;
+    }
+    &:hover > ul {
+      display: block;
+    }
+    & > ul {
+      background-color: @color-header-blue;
+      display: none;
+      padding: 8px;
+      position: absolute;
+      right: 0;
+      & > li {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  h1 > span {
+    display: none;
+  }
+  .project {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 16px;
+    width: 100%;
+  }
 }
