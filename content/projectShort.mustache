@@ -1,8 +1,15 @@
-<a href="/{{filename}}">
-<div class="project{{#tags}} tag-{{.}}{{/tags}}">
-  <div class="project-wrapper">
-    <img class="project-image" src="/img/projects/{{thumb}}" />
-    <div class="project-title">{{title}}</div>
+<div class="project{{#tags}} tag-{{.}}{{/tags}}" style="background-image: url(/img/{{thumb}});">
+  <img class="project-image-overlay" src="/img/image_mask.png" />
+  <h3 class="project-title">{{title}}</h3>
+  <div class="project-details">
+    {{#org}}
+      <div class="project-org">{{org}}</div>
+    {{/org}}
+    <div class="project-years">{{years}}</div>
+    <div class="project-tags">
+      {{#tags}}
+        <span class="project-tag">{{.}}</span>
+      {{/tags}}
+    </div>
   </div>
 </div>
-</a>

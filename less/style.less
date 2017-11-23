@@ -60,7 +60,7 @@ body {
   text-align: center;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Playfair Display';
   font-weight: 900;
 }
@@ -82,6 +82,13 @@ h2 {
   font-style: italic;
   margin: 0;
   padding: 0.5rem 0;
+}
+
+h3 {
+  color: @color-red;
+  font-size: 1.4rem;
+  font-style: italic;
+  margin: 0;
 }
 
 *, *:before, *:after {
@@ -247,6 +254,51 @@ a {
 
 #contact_top {
   background-color: @color-light-blue;
+}
+
+#projects {
+  font-size: 0;
+  text-align: left;
+}
+
+.project {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  height: 161px;
+  vertical-align: top;
+  & > .project-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  & > .project-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 8px;
+    text-align: right;
+    width: 360px;
+  }
+  & > .project-details {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+    text-align: right;
+    width: 360px;
+    & > .project-years {
+      padding-bottom: 4px;
+    }
+    & > .project-tags {
+      font-weight: 700;
+      & > .project-tag {
+        display: inline-block;
+        padding: 4px 0 4px 8px;
+      }
+    }
+  }
 }
 
 #footer {
