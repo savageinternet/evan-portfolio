@@ -28,10 +28,24 @@ def make_page(filename, html):
         f.write(html)
 
 
+def years_human(years):
+    year_from, year_to = years
+    if year_to is None:
+        return '{0} - present'.format(year_from)
+    if year_from == year_to:
+        return '{0}'.format(year_from)
+    return '{0} - {1}'.format(year_from, year_to)
+
+
+def normalize_project(project):
+    project['years'] = years_human(project['years'])
+    return project
+
+
 def make_index_page(projects, tags):
     html = render('index', {
         'pageTitle': 'Evan Savage',
-        'projects': projects,
+        'projects': map(normalize_project, projects),
         'tags': tags
     })
     make_page('index.html', html)

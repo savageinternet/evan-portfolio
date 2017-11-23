@@ -1,5 +1,5 @@
 [{
-  "thumb": "image_mask.png",
+  "thumb": "expedition-300.png",
   "title": "expedition!",
   "tags": ["education", "games", "fullstack"],
   "links": {
@@ -9,7 +9,7 @@
   "years": [2017, null],
   "description": "expedition! is a mobile augmented-reality game that connects players around location-based collaborative storytelling tasks: think Geocaching meets historical fan fiction.  Currently in development; release schedule coming soon."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "jugger-300.jpg",
   "title": "Jugger Toronto",
   "tags": ["games", "physical", "volunteer"],
   "links": {
@@ -19,7 +19,7 @@
   "years": [2017, null],
   "description": "Jugger Toronto is a Toronto-based sports club for the sport of Jugger.  As one of the club co-founders, I help with just about everything: social media outreach, events, practice planning, equipment building / maintenance, and tournament preparation.  I also, of course, continue to play this wonderful sport!"
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "puzzling-madness-300.png",
   "title": "The Puzzling Madness of John A. Macdonald",
   "tags": ["education", "games", "physical", "speaking"],
   "links": {
@@ -32,7 +32,7 @@
   "years": [2016, null],
   "description": "The Puzzling Madness of John A. Macdonald is a puzzle/scavenger hunt set in Toronto circa 1867.  Players unravel a plot to undermine Confederation, using historical handbills, maps, and sites.  As co-designer, I was involved with pretty much everything: initial research, puzzle design, playtesting, scriptwriting, casting, direction, costumes, props, website, marketing, social media outreach...it was a daunting task!  The game was developed through 2016-2017, and will be opened to the public in summer 2018."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "datasense-300.png",
   "title": "Data Sense",
   "tags": ["dataviz", "education", "fullstack", "speaking"],
   "links": {
@@ -42,7 +42,7 @@
   "years": [2013, null],
   "description": "Data Sense is a project with Intel Labs to make data analysis accessible to non-technical end users through interactive data visualization.  It consists of a web application (Vue / d3, Spring MVC, MySQL) backed by a data-syncing service (Spring MVC, Thrift) and a data analysis engine (node.js, express).  As the lead developer, I've built large sections of this architecture, and have been actively involved in feature development, bug fixes, and profiling / optimization.  I also gave a talk on Data Sense at QS 2015.  This project is a spiritual successor to datafist, albeit much more usable and performant."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "science-march-300.png",
   "title": "March for Science Toronto",
   "tags": ["speaking", "volunteer"],
   "links": {
@@ -54,7 +54,7 @@
   "years": [2017, 2017],
   "description": "March for Science Toronto was a satellite march of the larger March for Science movement.  I co-developed our website with Valkyrie Savage, and also served as the primary media contact.  The march itself was quite successful, with over 4000 in attendance, great local media coverage, and surprisingly smooth execution on march day."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "locatrix-300.jpg",
   "title": "Locatrix",
   "tags": ["fullstack", "mobile"],
   "links": {
@@ -65,7 +65,7 @@
   "years": [2016, 2017],
   "description": "Locatrix is an Android app for tracking your location and sharing it with friends, family, and co-workers.  Unlike other location-tracking tools, Locatrix preserves your privacy by only revealing city-level location every 24 hours, and by never sending raw location data off the device.  The app sends location updates to our web service (node.js, hapijs, PostgreSQL).  This service also provides a web interface, through which users can embed iframe or image widgets showing their city-level location and/or timezone.  To avoid sending location off-device, we run nearest-neighbor lookups against a quadtree index bundled with the app."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "woman-of-bronze-300.jpg",
   "title": "Doc Savage: Woman of Bronze",
   "tags": ["games", "physical"],
   "links": {
@@ -77,7 +77,7 @@
   "years": [2016, 2016],
   "description": "Doc Savage: Woman of Bronze is an Oakland-based puzzle hunt game tied to the city's unique history and architecture. It features letter locks hidden around the city, each unlocked by a four-letter word that the players must deduce from clues, riddles, and puzzles.  I designed the game structure, puzzles, and narrative, and then organized and ran the game for 15 players as part of Valkyrie's graduation party."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "jugger-300.jpg",
   "title": "Jugger California",
   "tags": ["games", "physical", "volunteer"],
   "links": {
@@ -90,7 +90,7 @@
   "years": [2014, 2016],
   "description": "Jugger California is a San Francisco-area league I co-founded with Valkyrie for the sport of Jugger, a blend of capture the flag, fencing, and rugby.  The sport enjoys relative popularity in Germany, but we introduced the game to the Bay Area.  We personally showcased the sport at local games (Come Out & Play) and art (Figment) festivals, and even gave a 20-minute presentation where we explored the lineage of Jugger and similar games back to pre-Roman times.  We constructed the first set of equipment ourselves from PVC and pipe insulation, and directed construction of further sets.  Our ensuing write-up on Instructables was featured."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "toroid-300.png",
   "title": "Toroid: Tor Node Map",
   "tags": ["dataviz"],
   "links": {
@@ -101,7 +101,7 @@
   "years": [2014, 2014],
   "description": "Toroid is an interactive worldwide map of Tor nodes.  It uses d3 and Leaflet for visualization, plus a simple cron job to retrieve an index of Tor nodes from the Onionoo API."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "async-300.png",
   "title": "Talk: Async JS Patterns",
   "tags": ["education", "speaking"],
   "links": {
@@ -113,7 +113,7 @@
   "years": [2014, 2014],
   "description": "I gave a talk at the East Bay JavaScript Meetup on the quirks and pitfalls of JavaScript's event loop, as well as on patterns (and anti-patterns!) for handling asynchronous tasks in JavaScript.  Some of the material has been made obsolete by widespread ES6 adoption / tooling, but most of the discussion is still quite useful."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "hoedown-300.png",
   "title": "Kinoma Hoedown",
   "tags": ["games", "hardware", "speaking"],
   "links": {
@@ -126,7 +126,7 @@
   "years": [2013, 2013],
   "description": "Using the newly-announced Kinoma Create hardware prototyping platform, Valkyrie Savage and I built Hoedown!, a unique game that we demonstrated at the Kinoma SXSW Trade Show stand during SXSW 2014.  In Hoedown!, players are measured for different qualities using physical sensors. These measurements determine a character class for the player, which is presented to them in the form of a character sheet printed on a BERG Little Printer. Players then find other players from each of the seven character classes, with whom they complete small shared tasks."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "datafist-300.png",
   "title": "datafist",
   "tags": ["dataviz", "education"],
   "links": {
