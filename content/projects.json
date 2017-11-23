@@ -1,7 +1,7 @@
 [{
   "thumb": "expedition-300.png",
   "title": "expedition!",
-  "tags": ["education", "games", "fullstack"],
+  "tags": ["education", "games", "fullstack", "mobile"],
   "links": {
     "site": "https://savageinter.net/expedition.html"
   },

@@ -20,6 +20,10 @@
     $$(projectSelector).forEach(function($project) {
       $project.classList.remove('active');
     });
+    var projectTagSelector = '.project-tag.' + tagName;
+    $$(projectTagSelector).forEach(function($projectTag) {
+      $projectTag.classList.remove('active');
+    });
   }
 
   function activateTag(tagName) {
@@ -28,6 +32,10 @@
     var projectSelector = '.project.' + tagName;
     $$(projectSelector).forEach(function($project) {
       $project.classList.add('active');
+    });
+    var projectTagSelector = '.project-tag.' + tagName;
+    $$(projectTagSelector).forEach(function($projectTag) {
+      $projectTag.classList.add('active');
     });
   }
 

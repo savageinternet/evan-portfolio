@@ -85,7 +85,7 @@ h2 {
 }
 
 h3 {
-  color: @color-red;
+  color: @color-blue;
   font-size: 1.4rem;
   font-style: italic;
   margin: 0;
@@ -271,6 +271,9 @@ a {
   width: 50%;
   height: 161px;
   vertical-align: top;
+  &.active > .project-title {
+    color: @color-red;
+  }
   & > .project-image-overlay {
     position: absolute;
     top: 0;
@@ -282,6 +285,7 @@ a {
     right: 0;
     margin: 8px;
     text-align: right;
+    transition: color 200ms ease-in-out;
     width: 360px;
   }
   & > .project-details {
@@ -300,6 +304,10 @@ a {
       & > .project-tag {
         display: inline-block;
         padding: 4px 0 4px 8px;
+        transition: color 200ms ease-in-out;
+        &.active {
+          color: @color-red;
+        }
       }
     }
   }
