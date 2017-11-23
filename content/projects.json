@@ -9,16 +9,6 @@
   "years": [2017, null],
   "description": "expedition! is a mobile augmented-reality game that connects players around location-based collaborative storytelling tasks: think Geocaching meets historical fan fiction.  Currently in development; release schedule coming soon."
 }, {
-  "thumb": "jugger-300.jpg",
-  "title": "Jugger Toronto",
-  "tags": ["games", "physical", "volunteer"],
-  "links": {
-    "fb": "https://www.facebook.com/groups/JuggerToronto"
-  },
-  "org": null,
-  "years": [2017, null],
-  "description": "Jugger Toronto is a Toronto-based sports club for the sport of Jugger.  As one of the club co-founders, I help with just about everything: social media outreach, events, practice planning, equipment building / maintenance, and tournament preparation.  I also, of course, continue to play this wonderful sport!"
-}, {
   "thumb": "puzzling-madness-300.png",
   "title": "The Puzzling Madness of John A. Macdonald",
   "tags": ["education", "games", "physical", "speaking"],
@@ -31,6 +21,16 @@
   "org": "Savage Internet",
   "years": [2016, null],
   "description": "The Puzzling Madness of John A. Macdonald is a puzzle/scavenger hunt set in Toronto circa 1867.  Players unravel a plot to undermine Confederation, using historical handbills, maps, and sites.  As co-designer, I was involved with pretty much everything: initial research, puzzle design, playtesting, scriptwriting, casting, direction, costumes, props, website, marketing, social media outreach...it was a daunting task!  The game was developed through 2016-2017, and will be opened to the public in summer 2018."
+}, {
+  "thumb": "jugger-300.jpg",
+  "title": "Jugger",
+  "tags": ["games", "physical", "volunteer"],
+  "links": {
+    "fb": "https://www.facebook.com/groups/JuggerToronto"
+  },
+  "org": null,
+  "years": [2014, null],
+  "description": "Jugger is a fast-paced international team sport that plays like a blend of capture the flag, fencing, and rugby.  It enjoys relative popularity in Germany, but Valkyrie and I introduced the game to the Bay Area and Toronto.  I'm actively involved with social media outreach, practice planning, coaching, and equipment building / maintenance for the Toronto club.  My partner and I gave a presentation on the history of the sport at Nerd Nite East Bay and Nerd Nite Toronto."
 }, {
   "thumb": "datasense-300.png",
   "title": "Data Sense",
@@ -77,19 +77,6 @@
   "years": [2016, 2016],
   "description": "Doc Savage: Woman of Bronze is an Oakland-based puzzle hunt game tied to the city's unique history and architecture. It features letter locks hidden around the city, each unlocked by a four-letter word that the players must deduce from clues, riddles, and puzzles.  I designed the game structure, puzzles, and narrative, and then organized and ran the game for 15 players as part of Valkyrie's graduation party."
 }, {
-  "thumb": "jugger-300.jpg",
-  "title": "Jugger California",
-  "tags": ["games", "physical", "volunteer"],
-  "links": {
-    "other": [
-      {"title": "Instructable for Jugger Weapons", "href": "http://instructables.com/id/Jugger-Weapons"},
-      {"title": "East Bay Nerd Nite Talk", "href": "https://youtu.be/LZ1WYXq14u0?t=2h52m40s"}
-    ]
-  },
-  "org": null,
-  "years": [2014, 2016],
-  "description": "Jugger California is a San Francisco-area league I co-founded with Valkyrie for the sport of Jugger, a blend of capture the flag, fencing, and rugby.  The sport enjoys relative popularity in Germany, but we introduced the game to the Bay Area.  We personally showcased the sport at local games (Come Out & Play) and art (Figment) festivals, and even gave a 20-minute presentation where we explored the lineage of Jugger and similar games back to pre-Roman times.  We constructed the first set of equipment ourselves from PVC and pipe insulation, and directed construction of further sets.  Our ensuing write-up on Instructables was featured."
-}, {
   "thumb": "toroid-300.png",
   "title": "Toroid: Tor Node Map",
   "tags": ["dataviz"],
@@ -113,7 +100,7 @@
   "years": [2014, 2014],
   "description": "I gave a talk at the East Bay JavaScript Meetup on the quirks and pitfalls of JavaScript's event loop, as well as on patterns (and anti-patterns!) for handling asynchronous tasks in JavaScript.  Some of the material has been made obsolete by widespread ES6 adoption / tooling, but most of the discussion is still quite useful."
 }, {
-  "thumb": "hoedown-300.png",
+  "thumb": "hoedown-300.jpg",
   "title": "Kinoma Hoedown",
   "tags": ["games", "hardware", "speaking"],
   "links": {
@@ -140,7 +127,7 @@
   "years": [2012, 2013],
   "description": "datafist is an in-browser toolkit for visually exploring your personal data.  Similar to Max or PureData, datafist offers a visual programming interface built around a toolkit of simple, composable operations. As you play around with these operations, the result is simultaneously visualized.   My goal was to create a simple open-source tool to help all self-trackers get more out of their personal data, regardless of experience with programming or statistics.  There is no backend; just clone the repo and go!  It can handle files of up to ~20K data points quite easily.  Visualizations are built on top of d3, with mootools as the base JavaScript library.  It also makes use of HTML5 drag-and-drop and FileReader APIs for CSV file import."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "dress-300.jpg",
   "title": "Proximity Dress",
   "tags": ["hardware"],
   "links": {
@@ -150,7 +137,7 @@
   "years": [2012, 2012],
   "description": "I worked with Valkyrie Savage to design, build, and program Arduino-based electronics for her wedding dress. Using two XBee modules, an Arduino Fio, and an Arduino Lilypad with the XBee breakout board, we constructed a proximity sensor based on RSSI pin signal strength between the two modules. This sensor was used to illuminate a series of LEDs on her dress, providing a visual indication of our mutual proximity."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "facebook-300.png",
   "title": "Core Photos Engineer",
   "tags": ["fullstack"],
   "links": {},
@@ -158,7 +145,7 @@
   "years": [2011, 2012],
   "description": "After spending a year with the Search Infrastructure team, I switched gears and moved to the Core Photos team. This horizontal role switching is highly encouraged at Facebook.  I took a failing face detection/recognition system and rebuilt it for scalability, achieving 99.9% reliability and a tagging boost of 2%. I then worked with Lubomir Bourdev to build easily reusable detection/recognition components, making it easier to drive further improvements to our tag suggestion systems.  The bulk of my time with Core Photos was spent driving a major initiative to migrate all photos-related data into TAO. TAO provides access to Facebook's social graph data via a simple API that abstracts away Memcache/MySQL.  The migration required extensive planning, frequent communication both within and across teams, and broad knowledge of Facebook's codebase. When I joined Core Photos, several people had previously tried and failed to gain traction on this project. By the time I left, we had successfully migrated all photo tags and had a clear plan for completing the rest of the migration."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "facebook-300.png",
   "title": "Search Infrastructure Engineer",
   "tags": ["fullstack"],
   "links": {},
@@ -166,7 +153,7 @@
   "years": [2010, 2011],
   "description": "I built search for Facebook Groups, the first fulltext search product to use Facebook's in-house distributed graph search system. This was a full-stack project; I was responsible for everything from indexing to realtime updates to frontend development. After rollout, I maintained this product by managing a weekly push process, building dashboards, and working with teammates to resolve operational issues. I also improved search quality, using detailed query log analysis to prioritize fixes to the indexing process and UI.  After that, I worked more closely with the Search Infrastructure team on improving our core graph search system. I automated index builds, making the process of pushing our 50 TB index quicker and more reliable. As part of the oncall rotation, I periodically managed that push process end-to-end. I instrumented our system to report a breakdown of CPU/network usage, allowing us to precisely target our optimizations at specific common queries and high-volume callers."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "xhpy-300.png",
   "title": "XHPy",
   "tags": [],
   "links": {
@@ -176,7 +163,7 @@
   "years": [2010, 2011],
   "description": "XHPy is a Python port of Facebook's XHP.  It installs an import hook that dynamically rewrites code as it is imported.  The parser uses Pratt top-down operator precedence, and is composed of a series of generators that stream the output of tokenize."
 }, {
-  "thumb": "image_mask.png",
+  "thumb": "bike-to-the-earth-300.png",
   "title": "Bike To The Earth",
   "tags": [],
   "links": {
