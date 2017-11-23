@@ -28,9 +28,10 @@ def make_page(filename, html):
         f.write(html)
 
 
-def make_index_page(tags):
+def make_index_page(projects, tags):
     html = render('index', {
         'pageTitle': 'Evan Savage',
+        'projects': projects,
         'tags': tags
     })
     make_page('index.html', html)
@@ -46,8 +47,9 @@ def load_json(name):
 
 
 def main():
+    projects = load_json('projects')
     tags = load_json('tags')
-    make_index_page(tags)
+    make_index_page(projects, tags)
 
 
 if __name__ == '__main__':

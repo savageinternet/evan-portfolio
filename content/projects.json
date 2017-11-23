@@ -1,7 +1,7 @@
 [{
   "thumb": "image_mask.png",
   "title": "expedition!",
-  "tags": ["education", "games", "software"],
+  "tags": ["education", "games", "fullstack"],
   "links": {
     "site": "https://savageinter.net/expedition.html"
   },
@@ -11,7 +11,7 @@
 }, {
   "thumb": "image_mask.png",
   "title": "Jugger Toronto",
-  "tags": ["games"],
+  "tags": ["games", "physical", "volunteer"],
   "links": {
     "fb": "https://www.facebook.com/groups/JuggerToronto"
   },
@@ -21,7 +21,7 @@
 }, {
   "thumb": "image_mask.png",
   "title": "The Puzzling Madness of John A. Macdonald",
-  "tags": ["games"],
+  "tags": ["education", "games", "physical", "speaking"],
   "links": {
     "fb": "https://www.facebook.com/puzzlingmadness/",
     "twitter": "https://twitter.com/puzzlingmadness",
@@ -30,21 +30,21 @@
   },
   "org": "Savage Internet",
   "years": [2016, null],
-  "description": "The Puzzling Madness of John A. Macdonald is a puzzle/scavenger hunt set in Toronto circa 1867.  Players unravel a plot to undermine Confederation, using historical handbills, maps, and sites.  I helped design, test, and iterate on puzzles and game script, based on feedback from five playtests conducted in 2017.  I also helped with marketing and social media outreach, including direction of a 1-minute promotional trailer."
+  "description": "The Puzzling Madness of John A. Macdonald is a puzzle/scavenger hunt set in Toronto circa 1867.  Players unravel a plot to undermine Confederation, using historical handbills, maps, and sites.  As co-designer, I was involved with pretty much everything: initial research, puzzle design, playtesting, scriptwriting, casting, direction, costumes, props, website, marketing, social media outreach...it was a daunting task!  The game was developed through 2016-2017, and will be opened to the public in summer 2018."
 }, {
   "thumb": "image_mask.png",
   "title": "Data Sense",
-  "tags": ["ed", "viz", "sw"],
+  "tags": ["dataviz", "education", "fullstack", "speaking"],
   "links": {
     "site": "https://makesenseofdata.com/"
   },
   "org": "Intel Labs",
   "years": [2013, null],
-  "description": "Data Sense is a project with Intel Labs to make data analysis accessible to non-technical end users through interactive data visualization.  It consists of a web application (Vue / d3, Spring MVC, MySQL) backed by a data-syncing service (Spring MVC, Thrift) and a data analysis engine (node.js, express).  As the lead developer, I've built large sections of this architecture, and have been actively involved in feature development, bug fixes, and profiling / optimization.  This project is somewhat of a spiritual successor to datafist, albeit much more usable and performant."
+  "description": "Data Sense is a project with Intel Labs to make data analysis accessible to non-technical end users through interactive data visualization.  It consists of a web application (Vue / d3, Spring MVC, MySQL) backed by a data-syncing service (Spring MVC, Thrift) and a data analysis engine (node.js, express).  As the lead developer, I've built large sections of this architecture, and have been actively involved in feature development, bug fixes, and profiling / optimization.  I also gave a talk on Data Sense at QS 2015.  This project is a spiritual successor to datafist, albeit much more usable and performant."
 }, {
   "thumb": "image_mask.png",
   "title": "March for Science Toronto",
-  "tags": ["games"],
+  "tags": ["speaking", "volunteer"],
   "links": {
     "fb": "https://www.facebook.com/ScienceMarchTO/",
     "twitter": "https://twitter.com/ScienceMarchTO",
@@ -52,22 +52,22 @@
   },
   "org": null,
   "years": [2017, 2017],
-  "description": "March for Science Toronto was a satellite march of the larger March for Science movement.  I co-developed our website with Valkyrie Savage, and also served as the primary media contact.  The march itself was quite successful, with over 4000 in attendance and surprisingly smooth day-of logistics."
+  "description": "March for Science Toronto was a satellite march of the larger March for Science movement.  I co-developed our website with Valkyrie Savage, and also served as the primary media contact.  The march itself was quite successful, with over 4000 in attendance, great local media coverage, and surprisingly smooth execution on march day."
 }, {
   "thumb": "image_mask.png",
   "title": "Locatrix",
-  "tags": ["rw", "viz", "sw"],
+  "tags": ["fullstack", "mobile"],
   "links": {
     "site": "https://locatrix.savageinter.net",
     "android": "https://play.google.com/store/apps/details?id=net.savageinter.locatrix"
   },
   "org": "Savage Internet",
   "years": [2016, 2017],
-  "description": "Locatrix is a Android app for tracking your location and sharing it with friends, family, and co-workers.  Unlike other location-tracking tools, Locatrix preserves your privacy by only revealing city-level location every 24 hours, and by never sending raw location data off the device.  The app sends location updates to our web service (node.js, hapijs, PostgreSQL).  This service also provides a web interface, through which users can embed iframe or image widgets showing their city-level location and/or timezone.  To avoid sending location off-device, we run nearest-neighbor lookups against a quadtree index bundled with the app."
+  "description": "Locatrix is an Android app for tracking your location and sharing it with friends, family, and co-workers.  Unlike other location-tracking tools, Locatrix preserves your privacy by only revealing city-level location every 24 hours, and by never sending raw location data off the device.  The app sends location updates to our web service (node.js, hapijs, PostgreSQL).  This service also provides a web interface, through which users can embed iframe or image widgets showing their city-level location and/or timezone.  To avoid sending location off-device, we run nearest-neighbor lookups against a quadtree index bundled with the app."
 }, {
   "thumb": "image_mask.png",
   "title": "Doc Savage: Woman of Bronze",
-  "tags": ["rw", "viz", "sw"],
+  "tags": ["games", "physical"],
   "links": {
     "other": [
       {"title": "Game Documents", "href": "https://drive.google.com/drive/folders/0B015tvjlD7Dmc0VqOGpyUmZhSkU?usp=sharing"}
@@ -75,11 +75,11 @@
   },
   "org": "Savage Internet",
   "years": [2016, 2016],
-  "description": "Doc Savage: Woman of Bronze is an Oakland-based puzzle hunt game tied to the city's unique history and architecture. It features letter locks hidden around the city, each unlocked by a four-letter word that the players must deduce from clues, riddles, and puzzles.  I designed the game structure, puzzles, and narrative, and then ran the game for 15 players as part of Valkyrie's graduation party."
+  "description": "Doc Savage: Woman of Bronze is an Oakland-based puzzle hunt game tied to the city's unique history and architecture. It features letter locks hidden around the city, each unlocked by a four-letter word that the players must deduce from clues, riddles, and puzzles.  I designed the game structure, puzzles, and narrative, and then organized and ran the game for 15 players as part of Valkyrie's graduation party."
 }, {
   "thumb": "image_mask.png",
   "title": "Jugger California",
-  "tags": ["fab", "g", "rw"],
+  "tags": ["games", "physical", "volunteer"],
   "links": {
     "other": [
       {"title": "Instructable for Jugger Weapons", "href": "http://instructables.com/id/Jugger-Weapons"},
@@ -92,7 +92,7 @@
 }, {
   "thumb": "image_mask.png",
   "title": "Toroid: Tor Node Map",
-  "tags": ["viz", "sw"],
+  "tags": ["dataviz"],
   "links": {
     "site": "https://toroid.savageinter.net/",
     "github": "https://github.com/candu/toroid"
@@ -103,7 +103,7 @@
 }, {
   "thumb": "image_mask.png",
   "title": "Talk: Async JS Patterns",
-  "tags": ["ed", "sw"],
+  "tags": ["education", "speaking"],
   "links": {
     "other": [
       {"title": "Interactive Talk Slides (HTML / JS)", "href": "http://candu.github.io/presentations/html/20140729-jquery-async-javascript/"}
@@ -115,11 +115,11 @@
 }, {
   "thumb": "image_mask.png",
   "title": "Kinoma Hoedown",
-  "tags": ["el", "fab", "g", "sw"],
+  "tags": ["games", "hardware", "speaking"],
   "links": {
     "github": "https://github.com/savageinternet/hoedown",
     "other": [
-      {"title": "Kinoma Blog Post", "href": "http://blog.kinoma.com/2014/06/hoedown-with-the-savages-and-kinoma-create/"},
+      {"title": "Kinoma Blog Post", "href": "http://blog.kinoma.com/2014/06/hoedown-with-the-savages-and-kinoma-create/"}
     ]
   },
   "org": "Kinoma / Marvell",
@@ -128,7 +128,7 @@
 }, {
   "thumb": "image_mask.png",
   "title": "datafist",
-  "tags": ["ed", "viz", "sw"],
+  "tags": ["dataviz", "education"],
   "links": {
     "github": "https://github.com/candu/datafist",
     "youtube": "https://www.youtube.com/watch?v=ypitHPXKa8M",
@@ -142,7 +142,7 @@
 }, {
   "thumb": "image_mask.png",
   "title": "Proximity Dress",
-  "tags": ["ed", "viz", "sw"],
+  "tags": ["hardware"],
   "links": {
     "github": "https://github.com/candu/proximity-dress"
   },
@@ -152,15 +152,15 @@
 }, {
   "thumb": "image_mask.png",
   "title": "Core Photos Engineer",
-  "tags": ["ed", "viz", "sw"],
+  "tags": ["fullstack"],
   "links": {},
   "org": "Facebook",
   "years": [2011, 2012],
-  "description": "After spending a year with the Search Infrastructure team, I switched gears and moved to the Core Photos team. This horizontal role switching is highly encouraged at Facebook.  I took a failing face detection/recognition system and rebuilt it for scalability, achieving 99.9% reliability and a tagging boost of 2%. I then worked with Lubomir Bourdev to build easily reusable detection/recognition components, making it easier to drive further improvements to our tag suggestion systems.  The bulk of my time with Core Photos was spent driving a major initiative to migrate all photos-related data into TAO. TAO provides access to our social graph data via a simple API that abstracts away Memcache/MySQL.  The migration required extensive planning, frequent communication both within and across teams, and broad knowledge of Facebook's codebase. When I joined Core Photos, several people had previously tried and failed to gain traction on this project. By the time I left, we had successfully migrated all photo tags and had a clear plan for completing the rest of the migration."
+  "description": "After spending a year with the Search Infrastructure team, I switched gears and moved to the Core Photos team. This horizontal role switching is highly encouraged at Facebook.  I took a failing face detection/recognition system and rebuilt it for scalability, achieving 99.9% reliability and a tagging boost of 2%. I then worked with Lubomir Bourdev to build easily reusable detection/recognition components, making it easier to drive further improvements to our tag suggestion systems.  The bulk of my time with Core Photos was spent driving a major initiative to migrate all photos-related data into TAO. TAO provides access to Facebook's social graph data via a simple API that abstracts away Memcache/MySQL.  The migration required extensive planning, frequent communication both within and across teams, and broad knowledge of Facebook's codebase. When I joined Core Photos, several people had previously tried and failed to gain traction on this project. By the time I left, we had successfully migrated all photo tags and had a clear plan for completing the rest of the migration."
 }, {
   "thumb": "image_mask.png",
   "title": "Search Infrastructure Engineer",
-  "tags": ["ed", "viz", "sw"],
+  "tags": ["fullstack"],
   "links": {},
   "org": "Facebook",
   "years": [2010, 2011],
@@ -168,7 +168,7 @@
 }, {
   "thumb": "image_mask.png",
   "title": "XHPy",
-  "tags": ["ed", "viz", "sw"],
+  "tags": [],
   "links": {
     "github": "https://github.com/candu/xhpy"
   },
@@ -178,7 +178,7 @@
 }, {
   "thumb": "image_mask.png",
   "title": "Bike To The Earth",
-  "tags": ["ed", "viz", "sw"],
+  "tags": [],
   "links": {
     "site": "https://savageinternet.github.io/biketotheearth/index.html"
   },

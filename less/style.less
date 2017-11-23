@@ -104,9 +104,8 @@ img {
 
 a {
   color: @color-red;
-  transition: background-color 200ms ease-in-out;
   &:hover {
-    background-color: fade(@color-red, 20%);
+    color: darken(@color-red, 20%);
   }
 }
 
@@ -186,7 +185,7 @@ a {
 }
 
 #haiku {
-  color: fade(@color-blue, 50%);
+  color: fade(@color-blue, 65%);
   font-size: 1.6rem;
   transition: opacity 1s ease-in-out;
   & > p {
