@@ -2,187 +2,187 @@
   "thumb": "image_mask.png",
   "title": "expedition!",
   "tags": ["education", "games", "software"],
-  "links": [],
-  "description": "expedition! connects people around location-based educational quests. Currently in development."
+  "links": {
+    "site": "https://savageinter.net/expedition.html"
+  },
+  "org": "Savage Internet",
+  "years": [2017, null],
+  "description": "expedition! is a mobile augmented-reality game that connects players around location-based collaborative storytelling tasks: think Geocaching meets historical fan fiction.  Currently in development; release schedule coming soon."
 }, {
   "thumb": "image_mask.png",
   "title": "Jugger Toronto",
   "tags": ["games"],
-  "links": [],
-  "description": ""
+  "links": {
+    "fb": "https://www.facebook.com/groups/JuggerToronto"
+  },
+  "org": null,
+  "years": [2017, null],
+  "description": "Jugger Toronto is a Toronto-based sports club for the sport of Jugger.  As one of the club co-founders, I help with just about everything: social media outreach, events, practice planning, equipment building / maintenance, and tournament preparation.  I also, of course, continue to play this wonderful sport!"
 }, {
   "thumb": "image_mask.png",
   "title": "The Puzzling Madness of John A. Macdonald",
   "tags": ["games"],
-  "links": [
-    {"title": "Puzzling Madness Home", "href": "https://puzzlingmadness.ca"}
-  ],
-  "description": "The Puzzling Madness of John A. Macdonald is a puzzle/scavenger hunt across Downtown Toronto. Designed for the Canada 150 celebration, it features puzzles set in Toronto of 1867. It leverages historical handbills, maps, and sites, and casts players in the roles of actual people from that time. Games run from the end of June until the end of August 2017, see site for details."
+  "links": {
+    "fb": "https://www.facebook.com/puzzlingmadness/",
+    "twitter": "https://twitter.com/puzzlingmadness",
+    "youtube": "https://www.youtube.com/watch?v=973w2QTswQI",
+    "site": "https://puzzlingmadness.ca"
+  },
+  "org": "Savage Internet",
+  "years": [2016, null],
+  "description": "The Puzzling Madness of John A. Macdonald is a puzzle/scavenger hunt set in Toronto circa 1867.  Players unravel a plot to undermine Confederation, using historical handbills, maps, and sites.  I helped design, test, and iterate on puzzles and game script, based on feedback from five playtests conducted in 2017.  I also helped with marketing and social media outreach, including direction of a 1-minute promotional trailer."
 }, {
-  "thumb": "datasense-300.png",
+  "thumb": "image_mask.png",
   "title": "Data Sense",
   "tags": ["ed", "viz", "sw"],
-  "links": [
-    {"title": "Data Sense", "href": "https://makesenseofdata.com"}
-  ],
-  "description": "Data Sense helps people who quantify their lives---e.g., with FitBit---to make sense of the data they collect. They can to upload data or connect online data services, then create visualizations linking information from multiple sources. This project is an active collaboration with Intel Labs."
+  "links": {
+    "site": "https://makesenseofdata.com/"
+  },
+  "org": "Intel Labs",
+  "years": [2013, null],
+  "description": "Data Sense is a project with Intel Labs to make data analysis accessible to non-technical end users through interactive data visualization.  It consists of a web application (Vue / d3, Spring MVC, MySQL) backed by a data-syncing service (Spring MVC, Thrift) and a data analysis engine (node.js, express).  As the lead developer, I've built large sections of this architecture, and have been actively involved in feature development, bug fixes, and profiling / optimization.  This project is somewhat of a spiritual successor to datafist, albeit much more usable and performant."
 }, {
-  "thumb": "locatrix-300.jpg",
+  "thumb": "image_mask.png",
+  "title": "March for Science Toronto",
+  "tags": ["games"],
+  "links": {
+    "fb": "https://www.facebook.com/ScienceMarchTO/",
+    "twitter": "https://twitter.com/ScienceMarchTO",
+    "site": "https://sciencemarchto.ca/"
+  },
+  "org": null,
+  "years": [2017, 2017],
+  "description": "March for Science Toronto was a satellite march of the larger March for Science movement.  I co-developed our website with Valkyrie Savage, and also served as the primary media contact.  The march itself was quite successful, with over 4000 in attendance and surprisingly smooth day-of logistics."
+}, {
+  "thumb": "image_mask.png",
   "title": "Locatrix",
   "tags": ["rw", "viz", "sw"],
-  "links": [
-    {"title": "Locatrix Home Page", "href": "https://locatrix.savageinter.net"},
-    {"title": "Download on Google Play", "href": "https://play.google.com/store/apps/details?id=net.savageinter.locatrix"}
-  ],
-  "description": "Locatrix tracks your movements on a macro scale, with your privacy in mind. On a long trip, it keeps friends and family updated with what city you’re in, but not where you spent your Saturday night. For remote work, your boss will always know your timezone, but not that you sometimes take meetings from the beach."
+  "links": {
+    "site": "https://locatrix.savageinter.net",
+    "android": "https://play.google.com/store/apps/details?id=net.savageinter.locatrix"
+  },
+  "org": "Savage Internet",
+  "years": [2016, 2017],
+  "description": "Locatrix is a Android app for tracking your location and sharing it with friends, family, and co-workers.  Unlike other location-tracking tools, Locatrix preserves your privacy by only revealing city-level location every 24 hours, and by never sending raw location data off the device.  The app sends location updates to our web service (node.js, hapijs, PostgreSQL).  This service also provides a web interface, through which users can embed iframe or image widgets showing their city-level location and/or timezone.  To avoid sending location off-device, we run nearest-neighbor lookups against a quadtree index bundled with the app."
 }, {
-  "thumb": "zombie-300.jpg",
-  "title": "Zombie Rendezvous",
-  "tags": ["rw", "g", "ed"],
-  "links": [
-    {"title": "Zombie Rendezvous Booklet", "href": "https://drive.google.com/open?id=0B0jF681JP2rJcnJySEhudktxenM"},
-    {"title": "Print-Friendly Booklet", "href": "https://drive.google.com/open?id=0B0jF681JP2rJaUxwZjZDaUVWbnc"},
-    {"title": "Blog Post", "href": "https://blog.savageinter.net/blog/2017/05/15/zombies/"}
-  ],
-  "description": "Alongside a molecular genetics grad student and a cancer researcher, we developed a game to be played at the outdoor science festival Science Rendezvous. Players are brought into the game when they're infected by roving zombies. They then have just 30 minutes to learn the difference between fungal, viral, and bacterial infections, and to find the cure!"
+  "thumb": "image_mask.png",
+  "title": "Doc Savage: Woman of Bronze",
+  "tags": ["rw", "viz", "sw"],
+  "links": {
+    "other": [
+      {"title": "Game Documents", "href": "https://drive.google.com/drive/folders/0B015tvjlD7Dmc0VqOGpyUmZhSkU?usp=sharing"}
+    ]
+  },
+  "org": "Savage Internet",
+  "years": [2016, 2016],
+  "description": "Doc Savage: Woman of Bronze is an Oakland-based puzzle hunt game tied to the city's unique history and architecture. It features letter locks hidden around the city, each unlocked by a four-letter word that the players must deduce from clues, riddles, and puzzles.  I designed the game structure, puzzles, and narrative, and then ran the game for 15 players as part of Valkyrie's graduation party."
 }, {
-  "thumb": "hoedown-300.jpg",
-  "title": "Kinoma Hoedown",
-  "tags": ["el", "fab", "g", "sw"],
-  "links": [
-    {"title": "Kinoma Blog Post", "href": "http://blog.kinoma.com/2014/06/hoedown-with-the-savages-and-kinoma-create/"},
-    {"title": "Github Repository", "href": "https://github.com/savageinternet/hoedown"}
-  ],
-  "description": "We showcased Hoedown---an Austin-themed interactive character generation system that tests a person’s intelligence, constitution, and more, using a series of entertaining challenges---for Kinoma (Marvell) as a part of their booth at South By Southwest 2014."
-}, {
-  "thumb": "pussyhat-300.jpg",
-  "title": "#resist shop",
-  "tags": ["fab"],
-  "links": [
-    {"title": "#resist shop on Shapeways", "href": "https://www.shapeways.com/shops/valkyrie"}
-  ],
-  "description": "To raise money for nonprofit advocacy organizations in the wake of the 2016 American election, Valkyrie created 3D models of necklace pendants and cufflinks showcasing pussyhats and other objects."
-}, {
-  "thumb": "jugger-300.jpg",
+  "thumb": "image_mask.png",
   "title": "Jugger California",
   "tags": ["fab", "g", "rw"],
-  "links": [
-    {"title": "Instructable for Jugger Weapons", "href": "http://instructables.com/id/Jugger-Weapons"},
-    {"title": "East Bay Nerd Nite Talk", "href": "https://youtu.be/LZ1WYXq14u0?t=2h52m40s"}
-  ],
-  "description": "Jugger California is a San Francisco-area league we founded for the sport of jugger. Jugger---a blend of capture the flag, fencing, and rugby---enjoys relative popularity in Germany, but we introduced the game to the Bay Area. We personally showcased the sport at local games (Come Out & Play) and art (Figment) festivals, as well as presented on its lineage dating back to Roman times. We constructed the first set of equipment ourselves from PVC and pipe insulation, and directed construction of further sets: our write-up on Instructables was featured."
+  "links": {
+    "other": [
+      {"title": "Instructable for Jugger Weapons", "href": "http://instructables.com/id/Jugger-Weapons"},
+      {"title": "East Bay Nerd Nite Talk", "href": "https://youtu.be/LZ1WYXq14u0?t=2h52m40s"}
+    ]
+  },
+  "org": null,
+  "years": [2014, 2016],
+  "description": "Jugger California is a San Francisco-area league I co-founded with Valkyrie for the sport of Jugger, a blend of capture the flag, fencing, and rugby.  The sport enjoys relative popularity in Germany, but we introduced the game to the Bay Area.  We personally showcased the sport at local games (Come Out & Play) and art (Figment) festivals, and even gave a 20-minute presentation where we explored the lineage of Jugger and similar games back to pre-Roman times.  We constructed the first set of equipment ourselves from PVC and pipe insulation, and directed construction of further sets.  Our ensuing write-up on Instructables was featured."
 }, {
-  "thumb": "woman-of-bronze-300.jpg",
-  "title": "Doc Savage, Woman of Bronze",
-  "tags": ["g", "rw"],
-  "links": [
-    {"title": "Puzzle Hunt Materials", "href": "https://drive.google.com/drive/folders/0B015tvjlD7Dmc0VqOGpyUmZhSkU?usp=sharing"}
-  ],
-  "description": "Doc Savage, Woman of Bronze, is an Oakland-based puzzle hunt game tied to the city's unique history and architecture. It features letter locks hidden around the city: players must determine where the locks are as well as the word which will unlock them. Evan supervised this game for 15 people."
-}, {
-  "thumb": "heve-300.jpg",
-  "title": "Hello, Velo!",
-  "tags": ["el", "fab", "sw"],
-  "links": [
-    {"title": "Kinoma Blog Post", "href": "http://blog.kinoma.com/2016/08/hello-velo"},
-    {"title": "Instructable for Hello, Velo!", "href": "http://www.instructables.com/id/Hello-Velo-the-Internet-of-Two-Wheeled-Things/"},
-    {"title": "3D models for Case", "href": "https://www.thingiverse.com/thing:1695733"}
-  ],
-  "description": "Hello, Velo! attaches to a bicycle and allows its owner to communicate with it, for example to determine where she left it parked. A GSM (cellular network) antenna and a GPS antenna attached to a Kinoma Element form the device's guts, and are enclosed in a custom 3D-printed case. The Hello, Velo! was created during Valkyrie’s summer 2016 Maker-in-Residency at Kinoma’s Headquarters, and her write-up on Instructables was featured."
-}, {
-  "thumb": "dnd-300.jpg",
-  "title": "D&D GMing",
-  "tags": ["g"],
-  "links": [],
-  "description": "As dungeon masters for a rotating group of players, we have created storylines, designed and balanced dungeons and monsters, crafted props, and enjoyed many hours of structured improv."
-}, {
-  "thumb": "intensive-mental-300.png",
-  "title": "Doc Savage's Intensive Mental Training",
-  "tags": ["ed", "g"],
-  "links": [
-    {"title": "Printable Game Board", "href": "https://drive.google.com/file/d/0BzrCBpMEE7AVTlpheFE2VDR0NWM/view?usp=sharing"}
-  ],
-  "description": "Doc Savage’s Intensive Mental Training is a word game in the crossword style, that focuses its challenge around syllables rather than pure letter counts. At least one foreign language (Spanish) professor has used it in her classroom as a fun challenge to encourage growth in second-language learners."
-}, {
-  "thumb": "cookie-cutters-300.jpg",
-  "title": "Cookie Cutters",
-  "tags": ["fab"],
-  "links": [
-    {"title": "3D models and OpenSCAD Code", "href": "http://www.thingiverse.com/thing:1185477"}
-  ],
-  "description": "As a Christmas gift to the players of Jugger California, we threw a themed holiday party complete with Jugger-shaped cookie cutters. We designed and 3D printed these cookie cutters, and we sent prints to Denver, Ireland, Germany, and Australia at the request of other players. Design files are available online."
-}, {
-  "thumb": "beer-glasses-300.jpg",
-  "title": "Etched Pint Glasses",
-  "tags": ["fab"],
-  "links": [],
-  "description": "We attend roughly one large jugger tournament per year, and it has become our tradition to give a beer-themed gift to the other teams in attendance. For our first tournament, we brewed a special blood red beer (made with beets) named after the movie from whence Jugger originated (namely, “The Blood of Heroes”). At the second tournament we handed out laser-engraved pint glasses bearing the name and year of the tournament to other players."
-}, {
-  "thumb": "d20-300.jpg",
-  "title": "Anti-Crit GM d20",
-  "tags": ["fab"],
-  "links": [
-    {"title": "Instructable for Anti-Crit d20", "href": "http://www.instructables.com/id/3D-Printed-D20-As-D10/"}
-  ],
-  "description": "As a gift for a friend of ours with whom we played tabletop roleplaying games, we 3D modeled and fabricated a special Anti-Crit die: a 20-sided die on which only the numbers 1-10 appear."
-}, {
-  "thumb": "lot-300.png",
-  "title": "USGS Terrain Data in OpenSCAD",
-  "tags": ["fab", "viz", "sw"],
-  "links": [],
-  "description": "Valkyrie’s parents are working to design a home and landscape on their rural property: as a gift to them we created a 3D model of the lot using elevation data from the USGS and satellite imagery from Google Maps."
-}, {
-  "thumb": "async-300.png",
-  "title": "Talk: Async JS Patterns",
-  "tags": ["ed", "sw"],
-  "links": [
-    {"title": "Interactive Talk Slides (HTML / JS)", "href": "http://candu.github.io/presentations/html/20140729-jquery-async-javascript/"}
-  ],
-  "description": "Evan gave a talk at the East Bay JavaScript Meetup on patterns (and anti-patterns!) for handling asynchronous tasks in JavaScript."
-}, {
-  "thumb": "cs160-300.jpg",
-  "title": "CS160: Intro to User Interface Design",
-  "tags": ["ed"],
-  "links": [
-    {"title": "Course Homepage", "href": "http://cs160.valkyriesavage.com"}
-  ],
-  "description": "Valkyrie taught UC Berkeley's Intro to User Interface Design course. She redesigned it to fit into the accelerated summer semester timescale, as well as to use a new technology (smartwatches), as well as to restructure half of the lectures into studio-style classes. For teaching this course, she won an Outstanding Graduate Student Instructor Award."
-}, {
-  "thumb": "tutoring-300.jpg",
-  "title": "Tutoring",
-  "tags": ["ed", "fab"],
-  "links": [],
-  "description": "We worked together with a 5th grader-turned-7th grader on a fabrication project of his choice: designing and 3D printing a rubber band gun from scratch. Along the way, we created a spirograph, learned how temperature causes things to expand, and taught his printer to sing."
-}, {
-  "thumb": "fabbed-300.jpg",
-  "title": "Fabbed to Sense",
-  "tags": ["el", "fab"],
-  "links": [
-    {"title": "Dissertation Talk", "href": "https://www.youtube.com/watch?v=SgZUxloEo4s"},
-    {"title": "Thesis (PDF)", "href": "http://valkyriesavage.com/papers/thesis.pdf"}
-  ],
-  "description": "Valkyrie’s doctoral thesis---“Fabbed to Sense: Integrated Design of Geometry and Sensing Algorithms for Interactive Objects”---focused on tools to aid makers and professional designers in creating functional mockups of future interactive products, such as video game controllers, while avoiding the onerous assembly that typically accompanies that process. Her thesis document and presentation are available online."
-}, {
-  "thumb": "datafist-300.png",
-  "title": "datafist",
-  "tags": ["ed", "viz", "sw"],
-  "links": [
-    {"title": "Github Repository", "href": "https://github.com/candu/datafist"}
-  ],
-  "description": "Datafist is a visual programming tool and language for exploring datasets: users can upload their data and create regressions, sparklines, and more. This tool was designed and implemented entirely by Evan, prior to his work on the Data Sense project which derives from it."
-}, {
-  "thumb": "bats-300.png",
-  "title": "Scientific Visualization",
-  "tags": ["viz", "sw"],
-  "links": [],
-  "description": "Working with researchers from Eastern Michigan University and University of Michigan at Ann Arbor, we helped process data and craft visualizations of bat migrations tracked with sonic detectors. Silver-haired bat photo credit: Heather Adams, by permission."
-}, {
-  "thumb": "toroid-300.png",
+  "thumb": "image_mask.png",
   "title": "Toroid: Tor Node Map",
   "tags": ["viz", "sw"],
-  "links": [
-    {"title": "Live Map", "href": "https://toroid.savageinter.net/"},
-    {"title": "Github Repository", "href": "https://github.com/candu/toroid"}
-  ],
-  "description": "Toroid is an interactive worldwide map of Tor nodes."
+  "links": {
+    "site": "https://toroid.savageinter.net/",
+    "github": "https://github.com/candu/toroid"
+  },
+  "org": "Savage Internet",
+  "years": [2014, 2014],
+  "description": "Toroid is an interactive worldwide map of Tor nodes.  It uses d3 and Leaflet for visualization, plus a simple cron job to retrieve an index of Tor nodes from the Onionoo API."
+}, {
+  "thumb": "image_mask.png",
+  "title": "Talk: Async JS Patterns",
+  "tags": ["ed", "sw"],
+  "links": {
+    "other": [
+      {"title": "Interactive Talk Slides (HTML / JS)", "href": "http://candu.github.io/presentations/html/20140729-jquery-async-javascript/"}
+    ]
+  },
+  "org": "Savage Internet",
+  "years": [2014, 2014],
+  "description": "I gave a talk at the East Bay JavaScript Meetup on the quirks and pitfalls of JavaScript's event loop, as well as on patterns (and anti-patterns!) for handling asynchronous tasks in JavaScript.  Some of the material has been made obsolete by widespread ES6 adoption / tooling, but most of the discussion is still quite useful."
+}, {
+  "thumb": "image_mask.png",
+  "title": "Kinoma Hoedown",
+  "tags": ["el", "fab", "g", "sw"],
+  "links": {
+    "github": "https://github.com/savageinternet/hoedown",
+    "other": [
+      {"title": "Kinoma Blog Post", "href": "http://blog.kinoma.com/2014/06/hoedown-with-the-savages-and-kinoma-create/"},
+    ]
+  },
+  "org": "Kinoma / Marvell",
+  "years": [2013, 2013],
+  "description": "Using the newly-announced Kinoma Create hardware prototyping platform, Valkyrie Savage and I built Hoedown!, a unique game that we demonstrated at the Kinoma SXSW Trade Show stand during SXSW 2014.  In Hoedown!, players are measured for different qualities using physical sensors. These measurements determine a character class for the player, which is presented to them in the form of a character sheet printed on a BERG Little Printer. Players then find other players from each of the seven character classes, with whom they complete small shared tasks."
+}, {
+  "thumb": "image_mask.png",
+  "title": "datafist",
+  "tags": ["ed", "viz", "sw"],
+  "links": {
+    "github": "https://github.com/candu/datafist",
+    "youtube": "https://www.youtube.com/watch?v=ypitHPXKa8M",
+    "other": [
+      {"title": "Blog Post", "href": "https://candu.github.io/blog/2012/12/21/datafist-exploration-and-analysis/"}
+    ]
+  },
+  "org": "Savage Internet",
+  "years": [2012, 2013],
+  "description": "datafist is an in-browser toolkit for visually exploring your personal data.  Similar to Max or PureData, datafist offers a visual programming interface built around a toolkit of simple, composable operations. As you play around with these operations, the result is simultaneously visualized.   My goal was to create a simple open-source tool to help all self-trackers get more out of their personal data, regardless of experience with programming or statistics.  There is no backend; just clone the repo and go!  It can handle files of up to ~20K data points quite easily.  Visualizations are built on top of d3, with mootools as the base JavaScript library.  It also makes use of HTML5 drag-and-drop and FileReader APIs for CSV file import."
+}, {
+  "thumb": "image_mask.png",
+  "title": "Proximity Dress",
+  "tags": ["ed", "viz", "sw"],
+  "links": {
+    "github": "https://github.com/candu/proximity-dress"
+  },
+  "org": null,
+  "years": [2012, 2012],
+  "description": "I worked with Valkyrie Savage to design, build, and program Arduino-based electronics for her wedding dress. Using two XBee modules, an Arduino Fio, and an Arduino Lilypad with the XBee breakout board, we constructed a proximity sensor based on RSSI pin signal strength between the two modules. This sensor was used to illuminate a series of LEDs on her dress, providing a visual indication of our mutual proximity."
+}, {
+  "thumb": "image_mask.png",
+  "title": "Core Photos Engineer",
+  "tags": ["ed", "viz", "sw"],
+  "links": {},
+  "org": "Facebook",
+  "years": [2011, 2012],
+  "description": "After spending a year with the Search Infrastructure team, I switched gears and moved to the Core Photos team. This horizontal role switching is highly encouraged at Facebook.  I took a failing face detection/recognition system and rebuilt it for scalability, achieving 99.9% reliability and a tagging boost of 2%. I then worked with Lubomir Bourdev to build easily reusable detection/recognition components, making it easier to drive further improvements to our tag suggestion systems.  The bulk of my time with Core Photos was spent driving a major initiative to migrate all photos-related data into TAO. TAO provides access to our social graph data via a simple API that abstracts away Memcache/MySQL.  The migration required extensive planning, frequent communication both within and across teams, and broad knowledge of Facebook's codebase. When I joined Core Photos, several people had previously tried and failed to gain traction on this project. By the time I left, we had successfully migrated all photo tags and had a clear plan for completing the rest of the migration."
+}, {
+  "thumb": "image_mask.png",
+  "title": "Search Infrastructure Engineer",
+  "tags": ["ed", "viz", "sw"],
+  "links": {},
+  "org": "Facebook",
+  "years": [2010, 2011],
+  "description": "I built search for Facebook Groups, the first fulltext search product to use Facebook's in-house distributed graph search system. This was a full-stack project; I was responsible for everything from indexing to realtime updates to frontend development. After rollout, I maintained this product by managing a weekly push process, building dashboards, and working with teammates to resolve operational issues. I also improved search quality, using detailed query log analysis to prioritize fixes to the indexing process and UI.  After that, I worked more closely with the Search Infrastructure team on improving our core graph search system. I automated index builds, making the process of pushing our 50 TB index quicker and more reliable. As part of the oncall rotation, I periodically managed that push process end-to-end. I instrumented our system to report a breakdown of CPU/network usage, allowing us to precisely target our optimizations at specific common queries and high-volume callers."
+}, {
+  "thumb": "image_mask.png",
+  "title": "XHPy",
+  "tags": ["ed", "viz", "sw"],
+  "links": {
+    "github": "https://github.com/candu/xhpy"
+  },
+  "org": null,
+  "years": [2010, 2011],
+  "description": "XHPy is a Python port of Facebook's XHP.  It installs an import hook that dynamically rewrites code as it is imported.  The parser uses Pratt top-down operator precedence, and is composed of a series of generators that stream the output of tokenize."
+}, {
+  "thumb": "image_mask.png",
+  "title": "Bike To The Earth",
+  "tags": ["ed", "viz", "sw"],
+  "links": {
+    "site": "https://savageinternet.github.io/biketotheearth/index.html"
+  },
+  "org": null,
+  "years": [2010, 2010],
+  "description": "Valkyrie Savage and I biked from Copenhagen to Istanbul via Portugal, a distance of over 12 000 km in six months. On the way, we wrote daily blog posts totalling 150 000 words.  Before the trip, I also put together a proof-of-concept handlebar cam, using ffmpeg to compile videos from still frames. This setup was unfortunately impractical for our trip, but it made for some fun test rides."
 }]
