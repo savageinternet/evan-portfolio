@@ -67,6 +67,10 @@
   $tags.forEach(attachTagListener);
   $projectTags.forEach(attachTagListener);
 
+  // Handles for other things on page that activate tags
+  var $tagActivators = $$('.tagger');
+  $tagActivators.forEach(attachTagListener);
+
   window.addEventListener('load', function() {
     $id('haiku').classList.remove('hide');
   })
