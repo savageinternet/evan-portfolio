@@ -36,6 +36,7 @@
 
 @color-red: #cd0f22;
 @color-med-red: fade(@color-red, 60%);
+@color-light-red: fade(@color-red, 40%);
 @color-blue: #369;
 @color-med-blue: fade(@color-blue, 60%);
 @color-light-blue: fade(@color-blue, 20%);
@@ -269,21 +270,40 @@ a {
 }
 
 .project {
+  background-color: @color-white;
   background-position: left;
   background-repeat: no-repeat;
-  background-size: 377px 377px;
+  background-size: 376px 376px;
   display: inline-block;
   position: relative;
   width: 50%;
   height: 161px;
+  transition: background-color 200ms ease-in-out;
   vertical-align: top;
-  &.active > .project-title > a {
-    color: @color-red;
+  &.active {
+    background-color: @color-light-red;
+    & > .project-title > a {
+      color: @color-red;
+    }
+    & > .project-image-overlay {
+      opacity: 0;
+    }
+    & > .project-image-active-overlay {
+      opacity: 1;
+    }
   }
   & > .project-image-overlay {
     position: absolute;
     top: 0;
     left: 0;
+    transition: opacity 200ms ease-in-out;
+  }
+  & > .project-image-active-overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 200ms ease-in-out;
   }
   & > .project-title {
     position: absolute;
