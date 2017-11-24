@@ -312,20 +312,44 @@ a {
     & > .project-years {
       padding-bottom: 4px;
     }
-    & > .project-tags {
-      font-weight: 700;
-      & > .project-tag {
-        cursor: pointer;
-        display: inline-block;
-        padding: 4px 0 4px 8px;
-        transition: color 200ms ease-in-out;
-        &.active {
-          color: @color-red;
-        }
-        &:hover {
-          text-decoration: underline;
-        }
-      }
+  }
+}
+
+.project-tags {
+  font-weight: 700;
+  & > .project-tag {
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px 0 4px 8px;
+    transition: color 200ms ease-in-out;
+    &.active {
+      color: @color-red;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.project-page {
+  & .project {
+    line-height: normal;
+    width: 100%;
+    & > .project-title {
+      color: @color-red;
+    }
+  }
+  & .project-wrapper {
+    margin-top: 16px;
+    text-align: left;
+    & > .project-description {
+      margin-top: 16px;
+    }
+  }
+  & .project-tag {
+    cursor: default;
+    &:hover {
+      text-decoration: none;
     }
   }
 }
@@ -383,5 +407,11 @@ a {
   .container {
     padding: 16px;
     width: 100%;
+  }
+  .project-page .container {
+    padding: 0;
+  }
+  .project-page .project-wrapper {
+    padding: 0 8px;
   }
 }
