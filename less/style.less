@@ -55,6 +55,7 @@ body, html {
   margin: 0;
   min-width: 400px;
   font-family: 'Play', sans-serif;
+  background-color: @color-white;
   color: @color-black;
 }
 
@@ -203,10 +204,6 @@ a {
   }
 }
 
-#projects_top {
-  background-color: @color-white;
-}
-
 .contact-action {
   font-family: 'Playfair Display';
   font-weight: 900;
@@ -272,7 +269,6 @@ a {
 }
 
 .project {
-  background-color: @color-white;
   background-position: left;
   background-repeat: no-repeat;
   background-size: 377px 377px;
@@ -332,6 +328,12 @@ a {
       }
     }
   }
+}
+
+.project-social > a > img,
+#contact_social > a > img {
+  width: 32px;
+  height: 32px;
 }
 
 #footer {

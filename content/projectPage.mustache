@@ -4,35 +4,59 @@
 <body>
 <div id="root">
   {{> header}}
-  <div id="body">
-    <div id="main" class="project-main">
-      {{#project}}
-      <div class="project-header">
-        <div class="project">
-          <div class="project-wrapper">
-            <a class="project-link" href="#">
-              <img class="project-image" src="/img/projects/{{thumb}}" alt="{{title}}">
-            </a>
-          </div>
+  <div id="body" class="project-page">
+    {{#project}}
+    <section>
+      <div class="container">
+        <div class="project{{#tags}} tag-{{.}}{{/tags}}" style="background-image: url(/img/projects/{{thumb}});">
+          <img class="project-image-overlay" src="/img/image_mask.png" />
         </div>
-        <div class="project-details">
-          <h2>{{title}}</h2>
-          <div class="project-links">
-          </div>
+        <h3>{{title}}</h3>
+        <div class="project-org-years">
+          {{#org}}
+            <span>{{org}}, {{years}}</span>
+          {{/org}}
+          {{^org}}
+            <span>{{years}}</span>
+          {{/org}}
         </div>
-      </div>
-      <div class="project-desc">
+        <div class="project-social">
+          {{#links.fb}}
+            <a href="{{links.fb}}" title="Follow on Facebook"><img src="/img/facebook.png" /></a>
+          {{/links.fb}}
+          {{#links.twitter}}
+            <a href="{{links.twitter}}" title="Follow on Twitter"><img src="/img/twitter.svg" /></a>
+          {{/links.twitter}}
+          {{#links.youtube}}
+            <a href="{{links.youtube}}" title="Watch video on YouTube"><img src="/img/youtube.png" /></a>
+          {{/links.youtube}}
+          {{#links.github}}
+            <a href="{{links.github}}" title="View source code"><img src="/img/github.png" /></a>
+          {{/links.github}}
+          {{#links.android}}
+            <a href="{{links.android}}" title="Get it on Google Play"><img src="/img/android.svg" /></a>
+          {{/links.android}}
+        </div>
+        <div class="project-links">
+          {{#links.site}}
+            <div class="project-link"><a href="{{links.site}}" title="{{title}}">website</a></div>
+          {{/links.site}}
+          {{#links.other}}
+            <div class="project-link"><a href="{{href}}" title="{{title}}">{{title}}</a></div>
+          {{/links.other}}
+        </div>
+        <div class="project-description">
           {{description}}
+        </div>
+        <div class="project-tags">
+          {{#tags}}
+            <span class="project-tag tag-{{.}}">{{.}}</span>
+          {{/tags}}
+        </div>
       </div>
-      <div id="tags">
-        {{#tags}}
-          <span class="tag {{.}}">{{.}}</span>
-        {{/tags}}
-      </div>
-      {{/project}}
-    </div>
+    </section>
+    {{/project}}
   </div>
 </div>
-{{> footer}}
 </body>
 </html>
