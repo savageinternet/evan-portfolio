@@ -5,7 +5,8 @@
       activeTagName = null,
       $tags = $$('#tags > .tag'),
       $projectsParent = $id('projects'),
-      $projects = $$('#projects > .project');
+      $projects = $$('#projects > .project'),
+      $projectTags = $$('#projects .project-tag');
 
   // TAG SELECTION
 
@@ -64,6 +65,7 @@
   }
 
   $tags.forEach(attachTagListener);
+  $projectTags.forEach(attachTagListener);
 
   window.addEventListener('load', function() {
     $id('haiku').classList.remove('hide');

@@ -35,12 +35,14 @@
 // COLORS
 
 @color-red: #cd0f22;
+@color-med-red: fade(@color-red, 60%);
 @color-blue: #369;
 @color-med-blue: fade(@color-blue, 60%);
 @color-light-blue: fade(@color-blue, 20%);
 @color-header-blue: #D5DEE8;
 @color-header-blue-border: #2C5B8E;
 @color-black: #322e22;
+@color-white: #FBFBFF;
 
 // SIZES
 
@@ -201,6 +203,10 @@ a {
   }
 }
 
+#projects_top {
+  background-color: @color-white;
+}
+
 .contact-action {
   font-family: 'Playfair Display';
   font-weight: 900;
@@ -249,11 +255,10 @@ a {
       top: (-@tag-triangle-height * 3 / 4);
       right: (@tag-triangle-width / 2);
       transition: border-bottom 200ms ease-in-out;
-      z-index: -1;
     }
   }
   &.active > span:after {
-    border-bottom: @tag-triangle-height solid @color-red;
+    border-bottom: @tag-triangle-height solid @color-med-red;
   }
 }
 
@@ -267,7 +272,7 @@ a {
 }
 
 .project {
-  background-color: #FBFBFF;
+  background-color: @color-white;
   background-position: left;
   background-repeat: no-repeat;
   background-size: 377px 377px;
@@ -276,7 +281,7 @@ a {
   width: 50%;
   height: 161px;
   vertical-align: top;
-  &.active > .project-title {
+  &.active > .project-title > a {
     color: @color-red;
   }
   & > .project-image-overlay {
@@ -290,8 +295,15 @@ a {
     right: 0;
     margin: 8px;
     text-align: right;
-    transition: color 200ms ease-in-out;
     width: 360px;
+    & > a {
+      transition: color 200ms ease-in-out;
+      color: @color-blue;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
   & > .project-details {
     font-size: 1rem;
@@ -307,11 +319,15 @@ a {
     & > .project-tags {
       font-weight: 700;
       & > .project-tag {
+        cursor: pointer;
         display: inline-block;
         padding: 4px 0 4px 8px;
         transition: color 200ms ease-in-out;
         &.active {
           color: @color-red;
+        }
+        &:hover {
+          text-decoration: underline;
         }
       }
     }
