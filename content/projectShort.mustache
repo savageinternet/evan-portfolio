@@ -1,0 +1,15 @@
+<div class="project{{#tags}} tag-{{.}}{{/tags}}" style="background-image: url(/img/projects/{{thumb}});">
+  <img class="project-image-overlay" src="/img/image_mask.png" />
+  <h3 class="project-title"><a href="{{filename}}">{{title}}</a></h3>
+  <div class="project-details">
+    {{#org}}
+      <div class="project-org">{{org}}</div>
+    {{/org}}
+    <div class="project-years">{{years}}</div>
+    <div class="project-tags">
+      {{#tags}}
+        <span class="project-tag tag-{{.}}">{{.}}</span>
+      {{/tags}}
+    </div>
+  </div>
+</div>

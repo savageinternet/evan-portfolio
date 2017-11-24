@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+{{> head}}
+<body>
+<div id="root">
+  {{> header}}
+  <div id="body">
+    <div id="main" class="project-main">
+      {{#project}}
+      <div class="project-header">
+        <div class="project">
+          <div class="project-wrapper">
+            <a class="project-link" href="#">
+              <img class="project-image" src="/img/projects/{{thumb}}" alt="{{title}}">
+            </a>
+          </div>
+        </div>
+        <div class="project-details">
+          <h2>{{title}}</h2>
+          <div class="project-links">
+          </div>
+        </div>
+      </div>
+      <div class="project-desc">
+          {{description}}
+      </div>
+      <div id="tags">
+        {{#tags}}
+          <span class="tag {{.}}">{{.}}</span>
+        {{/tags}}
+      </div>
+      {{/project}}
+    </div>
+  </div>
+</div>
+{{> footer}}
+</body>
+</html>

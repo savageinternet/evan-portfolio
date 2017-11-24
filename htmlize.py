@@ -2,6 +2,7 @@ import pystache
 
 import json
 import os
+import re
 
 ROOT = os.path.dirname(os.path.realpath(__file__))
 IN_DIR = os.path.join(ROOT, 'content')
@@ -28,12 +29,45 @@ def make_page(filename, html):
         f.write(html)
 
 
-def make_index_page(tags):
+def get_project_filename(project):
+    title = project.get('titleShort', project['title'])
+    title = title.lower()
+    title = re.sub('[!@#$\'\. ,:&]+', '-', title)
+    title = title.strip('-')
+    return title + '.html'
+
+
+def years_human(project):
+    year_from, year_to = project['years']
+    if year_to is None:
+        return '{0} - present'.format(year_from)
+    if year_from == year_to:
+        return '{0}'.format(year_from)
+    return '{0} - {1}'.format(year_from, year_to)
+
+
+def normalize_project(project):
+    project['filename'] = get_project_filename(project)
+    project['years'] = years_human(project)
+    return project
+
+
+def make_index_page(projects, tags):
     html = render('index', {
         'pageTitle': 'Evan Savage',
+        'projects': projects,
         'tags': tags
     })
     make_page('index.html', html)
+
+
+def make_project_pages(projects):
+    for project in projects:
+        html = render('projectPage', {
+            'pageTitle': project['title'] + ' - Evan Savage',
+            'project': project
+        })
+        make_page(project['filename'], html)
 
 
 def load_json(name):
@@ -46,8 +80,11 @@ def load_json(name):
 
 
 def main():
+    projects = load_json('projects')
+    projects = list(map(normalize_project, projects))
     tags = load_json('tags')
-    make_index_page(tags)
+    make_index_page(projects, tags)
+    make_project_pages(projects)
 
 
 if __name__ == '__main__':

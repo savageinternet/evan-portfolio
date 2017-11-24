@@ -5,7 +5,8 @@
       activeTagName = null,
       $tags = $$('#tags > .tag'),
       $projectsParent = $id('projects'),
-      $projects = $$('#projects > .project');
+      $projects = $$('#projects > .project'),
+      $projectTags = $$('#projects .project-tag');
 
   // TAG SELECTION
 
@@ -20,6 +21,10 @@
     $$(projectSelector).forEach(function($project) {
       $project.classList.remove('active');
     });
+    var projectTagSelector = '.project-tag.' + tagName;
+    $$(projectTagSelector).forEach(function($projectTag) {
+      $projectTag.classList.remove('active');
+    });
   }
 
   function activateTag(tagName) {
@@ -28,6 +33,10 @@
     var projectSelector = '.project.' + tagName;
     $$(projectSelector).forEach(function($project) {
       $project.classList.add('active');
+    });
+    var projectTagSelector = '.project-tag.' + tagName;
+    $$(projectTagSelector).forEach(function($projectTag) {
+      $projectTag.classList.add('active');
     });
   }
 
@@ -56,4 +65,9 @@
   }
 
   $tags.forEach(attachTagListener);
+  $projectTags.forEach(attachTagListener);
+
+  window.addEventListener('load', function() {
+    $id('haiku').classList.remove('hide');
+  })
 })();
