@@ -44,6 +44,8 @@
 @color-header-blue-border: #2C5B8E;
 @color-black: #322e22;
 @color-white: #FBFBFF;
+@color-full-black: #000;
+@color-full-white: #fff;
 
 // SIZES
 
@@ -350,6 +352,12 @@ a {
   }
 }
 
+.project-description {
+  display: none;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
 .project-page {
   & .project {
     line-height: normal;
@@ -362,6 +370,7 @@ a {
     margin-top: 16px;
     text-align: left;
     & > .project-description {
+      display: block;
       margin-top: 16px;
     }
   }
@@ -377,6 +386,10 @@ a {
 #contact_social > a > img {
   width: 32px;
   height: 32px;
+}
+
+#contact_social > a > span {
+  display: none;
 }
 
 #footer {
@@ -432,5 +445,113 @@ a {
   }
   .project-page .project-wrapper {
     padding: 0 8px;
+  }
+}
+
+@media print {
+  body, html {
+    background-color: @color-full-white;
+    color: @color-full-black;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    & > span {
+      display: inline-block;
+    }
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  #header {
+    background-color: @color-full-white;
+    border-bottom: none;
+    position: static;
+    text-align: center;
+  }
+
+  #logo {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #nav {
+    display: none;
+  }
+
+  #banner,
+  #haiku,
+  #tags,
+  .contact-action {
+    display: none;
+  }
+
+  #body {
+    margin-top: 0;
+  }
+
+  #about_top,
+  #contact_top {
+    background-color: @color-full-white;
+  }
+
+  #about_top p {
+    margin: 0.5em 0;
+  }
+
+  .project {
+    background-color: @color-full-white;
+    background-image: none !important;
+    display: none;
+    margin-top: 16px;
+    height: auto;
+    width: 100%;
+    &.print {
+      display: block;
+    }
+    & > .project-image-overlay,
+    & > .project-image-active-overlay {
+      display: none;
+    }
+    & > .project-title {
+      display: block;
+      position: static;
+      text-align: left;
+      width: auto;
+    }
+    & > .project-details {
+      display: block;
+      float: right;
+      position: static;
+      width: 200px;
+    }
+    & > .project-tags {
+      display: none;
+    }
+    & > .project-description {
+      display: block;
+      line-height: 1.4;
+      padding: 8px;
+      width: ~"calc(100% - 200px)";
+    }
+    &.active {
+      background-color: @color-full-white;
+    }
+  }
+
+  #contact_social > a {
+    margin-right: 16px;
+    & > span {
+      display: inline;
+    }
+    & > img {
+      margin-right: 8px;
+    }
   }
 }

@@ -1,7 +1,6 @@
-<div class="project{{#tags}} tag-{{.}}{{/tags}}" style="background-image: url(/img/projects/{{thumb}});">
+<div class="project{{#tags}} tag-{{.}}{{/tags}}{{#print}} print{{/print}}" style="background-image: url(/img/projects/{{thumb}});">
   <img class="project-image-overlay" src="/img/image_mask.png" />
   <img class="project-image-active-overlay" src="/img/image_mask_active.png" />
-  <h3 class="project-title"><a href="{{filename}}">{{title}}</a></h3>
   <div class="project-details">
     {{#org}}
       <div class="project-org">{{org}}</div>
@@ -12,5 +11,9 @@
         <span class="project-tag tag-{{.}}">{{.}}</span>
       {{/tags}}
     </div>
+  </div>
+  <h3 class="project-title"><a href="{{filename}}">{{title}}</a></h3>
+  <div class="project-description">
+    {{description}}
   </div>
 </div>

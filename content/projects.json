@@ -1,6 +1,7 @@
 [{
   "thumb": "expedition-300.png",
   "title": "expedition!",
+  "print": true,
   "tags": ["education", "games", "fullstack", "mobile"],
   "links": {
     "site": "https://savageinter.net/expedition.html"
@@ -11,6 +12,7 @@
 }, {
   "thumb": "puzzling-madness-300.png",
   "title": "The Puzzling Madness of John A. Macdonald",
+  "print": true,
   "tags": ["education", "games", "physical", "speaking"],
   "links": {
     "fb": "https://www.facebook.com/puzzlingmadness/",
@@ -24,16 +26,18 @@
 }, {
   "thumb": "jugger-300.jpg",
   "title": "Jugger",
+  "print": false,
   "tags": ["games", "physical", "volunteer"],
   "links": {
     "fb": "https://www.facebook.com/groups/JuggerToronto"
   },
-  "org": null,
+  "org": "Jugger Toronto",
   "years": [2014, null],
   "description": "Jugger is a fast-paced international team sport that plays like a blend of capture the flag, fencing, and rugby.  It enjoys relative popularity in Germany, but Valkyrie and I introduced the game to the Bay Area and Toronto.  I'm actively involved with social media outreach, practice planning, coaching, and equipment building / maintenance for the Toronto club.  My partner and I gave a presentation on the history of the sport at Nerd Nite East Bay and Nerd Nite Toronto."
 }, {
   "thumb": "datasense-300.png",
   "title": "Data Sense",
+  "print": true,
   "tags": ["dataviz", "education", "fullstack", "speaking"],
   "links": {
     "site": "https://makesenseofdata.com/"
@@ -43,19 +47,21 @@
   "description": "Data Sense is a project with Intel Labs to make data analysis accessible to non-technical end users through interactive data visualization.  It consists of a web application (Vue / d3, Spring MVC, MySQL) backed by a data-syncing service (Spring MVC, Thrift) and a data analysis engine (node.js, express).  As the lead developer, I've built large sections of this architecture, and have been actively involved in feature development, bug fixes, and profiling / optimization.  I also gave a talk on Data Sense at QS 2015.  This project is a spiritual successor to datafist, albeit much more usable and performant."
 }, {
   "thumb": "science-march-300.png",
-  "title": "March for Science Toronto",
+  "title": "March for Science Organizer",
+  "print": true,
   "tags": ["speaking", "volunteer"],
   "links": {
     "fb": "https://www.facebook.com/ScienceMarchTO/",
     "twitter": "https://twitter.com/ScienceMarchTO",
     "site": "https://sciencemarchto.ca/"
   },
-  "org": null,
+  "org": "M4S Toronto",
   "years": [2017, 2017],
   "description": "March for Science Toronto was a satellite march of the larger March for Science movement.  I co-developed our website with Valkyrie Savage, and also served as the primary media contact.  The march itself was quite successful, with over 4000 in attendance, great local media coverage, and surprisingly smooth execution on march day."
 }, {
   "thumb": "locatrix-300.jpg",
   "title": "Locatrix",
+  "print": true,
   "tags": ["fullstack", "mobile"],
   "links": {
     "site": "https://locatrix.savageinter.net",
@@ -67,6 +73,7 @@
 }, {
   "thumb": "woman-of-bronze-300.jpg",
   "title": "Doc Savage: Woman of Bronze",
+  "print": false,
   "tags": ["games", "physical"],
   "links": {
     "other": [
@@ -79,6 +86,7 @@
 }, {
   "thumb": "toroid-300.png",
   "title": "Toroid: Tor Node Map",
+  "print": false,
   "tags": ["dataviz"],
   "links": {
     "site": "https://toroid.savageinter.net/",
@@ -90,6 +98,7 @@
 }, {
   "thumb": "async-300.png",
   "title": "Talk: Async JS Patterns",
+  "print": false,
   "tags": ["education", "speaking"],
   "links": {
     "other": [
@@ -102,6 +111,7 @@
 }, {
   "thumb": "hoedown-300.jpg",
   "title": "Kinoma Hoedown",
+  "print": true,
   "tags": ["games", "hardware", "speaking"],
   "links": {
     "github": "https://github.com/savageinternet/hoedown",
@@ -115,6 +125,7 @@
 }, {
   "thumb": "datafist-300.png",
   "title": "datafist",
+  "print": false,
   "tags": ["dataviz", "education"],
   "links": {
     "github": "https://github.com/candu/datafist",
@@ -129,6 +140,7 @@
 }, {
   "thumb": "dress-300.jpg",
   "title": "Proximity Dress",
+  "print": false,
   "tags": ["hardware"],
   "links": {
     "github": "https://github.com/candu/proximity-dress"
@@ -139,6 +151,7 @@
 }, {
   "thumb": "facebook-300.png",
   "title": "Core Photos Engineer",
+  "print": true,
   "tags": ["fullstack"],
   "links": {},
   "org": "Facebook",
@@ -147,6 +160,7 @@
 }, {
   "thumb": "facebook-300.png",
   "title": "Search Infrastructure Engineer",
+  "print": true,
   "tags": ["fullstack"],
   "links": {},
   "org": "Facebook",
@@ -155,6 +169,7 @@
 }, {
   "thumb": "xhpy-300.png",
   "title": "XHPy",
+  "print": false,
   "tags": [],
   "links": {
     "github": "https://github.com/candu/xhpy"
@@ -165,6 +180,7 @@
 }, {
   "thumb": "bike-to-the-earth-300.png",
   "title": "Bike To The Earth",
+  "print": false,
   "tags": [],
   "links": {
     "site": "https://savageinternet.github.io/biketotheearth/index.html"
