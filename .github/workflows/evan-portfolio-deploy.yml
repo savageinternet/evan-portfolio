@@ -1,0 +1,26 @@
+name: evan-portfolio-deploy
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Use Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.5.10'
+      - name: Use Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '8.9.0'
+      - name: Build
+        run: make
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
